@@ -1,0 +1,11 @@
+,value
+applications,1000.0
+auto_approved,237.0
+manual_review,400.0
+auto_rejected,201.0
+returned_to_customer,162.0
+auto_decided_pct,43.8
+manual_review_pct,40.0
+baseline_manual_hours,783.3
+new_manual_hours,146.8
+estimated_hours_saved,636.5

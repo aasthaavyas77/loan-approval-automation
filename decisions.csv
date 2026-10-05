@@ -1,0 +1,1001 @@
+application_id,monthly_income,proposed_emi,credit_score,pan,aadhaar,salary_slip,kyc_passed,kyc_retries_used,emi_ratio,decision,rule,reason
+APP0001,82600.0,38908.0,663.0,True,True,True,True,0,0.471,MANUAL_REVIEW,BR-03,"Borderline: score 663, EMI ratio 47%"
+APP0002,48200.0,5702.0,734.0,True,True,True,True,0,0.118,MANUAL_REVIEW,BR-03,"Borderline: score 734, EMI ratio 12%"
+APP0003,98700.0,5252.0,718.0,True,True,True,True,0,0.053,MANUAL_REVIEW,BR-03,"Borderline: score 718, EMI ratio 5%"
+APP0004,106500.0,5597.0,713.0,True,True,True,False,1,0.053,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0005,33500.0,5702.0,713.0,False,True,True,True,0,0.17,RETURNED,BR-01,Missing documents: pan
+APP0006,43400.0,9583.0,727.0,True,True,True,True,0,0.221,MANUAL_REVIEW,BR-03,"Borderline: score 727, EMI ratio 22%"
+APP0007,77000.0,7992.0,775.0,True,True,True,True,0,0.104,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0008,64400.0,9847.0,810.0,True,True,True,True,0,0.153,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0009,72600.0,19885.0,720.0,True,False,True,True,0,0.274,RETURNED,BR-01,Missing documents: aadhaar
+APP0010,52000.0,1461.0,773.0,True,True,True,False,1,0.028,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0011,104000.0,4408.0,674.0,True,True,True,True,0,0.042,MANUAL_REVIEW,BR-03,"Borderline: score 674, EMI ratio 4%"
+APP0012,99800.0,7619.0,770.0,True,True,True,False,2,0.076,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0013,75100.0,11452.0,670.0,True,True,True,True,0,0.152,MANUAL_REVIEW,BR-03,"Borderline: score 670, EMI ratio 15%"
+APP0014,114800.0,12530.0,791.0,True,True,True,True,0,0.109,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0015,88200.0,5942.0,864.0,True,True,True,False,1,0.067,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0016,51900.0,9991.0,712.0,True,True,True,False,2,0.193,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0017,84800.0,5798.0,577.0,True,True,True,True,0,0.068,AUTO_REJECT,BR-04,Score 577 / EMI ratio 7% outside limits
+APP0018,49800.0,3852.0,684.0,True,True,True,True,0,0.077,MANUAL_REVIEW,BR-03,"Borderline: score 684, EMI ratio 8%"
+APP0019,103900.0,2415.0,800.0,True,True,True,True,0,0.023,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0020,71700.0,3948.0,756.0,True,True,True,True,0,0.055,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0021,67900.0,10086.0,736.0,True,True,True,True,0,0.149,MANUAL_REVIEW,BR-03,"Borderline: score 736, EMI ratio 15%"
+APP0022,55700.0,52804.0,786.0,True,True,True,True,0,0.948,AUTO_REJECT,BR-04,Score 786 / EMI ratio 95% outside limits
+APP0023,119300.0,7715.0,751.0,True,True,True,True,0,0.065,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0024,68700.0,11117.0,799.0,True,True,False,True,0,0.162,RETURNED,BR-01,Missing documents: salary_slip
+APP0025,61600.0,8357.0,780.0,True,True,True,True,0,0.136,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0026,63500.0,18336.0,819.0,True,True,True,True,0,0.289,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0027,90500.0,12331.0,743.0,True,True,True,True,0,0.136,MANUAL_REVIEW,BR-03,"Borderline: score 743, EMI ratio 14%"
+APP0028,84600.0,18208.0,779.0,True,True,True,True,0,0.215,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0029,86300.0,9440.0,700.0,True,True,True,True,0,0.109,MANUAL_REVIEW,BR-03,"Borderline: score 700, EMI ratio 11%"
+APP0030,86900.0,10829.0,681.0,True,True,True,True,0,0.125,MANUAL_REVIEW,BR-03,"Borderline: score 681, EMI ratio 12%"
+APP0031,172200.0,56254.0,831.0,True,False,True,True,0,0.327,RETURNED,BR-01,Missing documents: aadhaar
+APP0032,62200.0,5175.0,734.0,True,True,True,True,0,0.083,MANUAL_REVIEW,BR-03,"Borderline: score 734, EMI ratio 8%"
+APP0033,59600.0,40921.0,772.0,True,True,True,True,0,0.687,AUTO_REJECT,BR-04,Score 772 / EMI ratio 69% outside limits
+APP0034,52800.0,6037.0,728.0,True,True,True,True,0,0.114,MANUAL_REVIEW,BR-03,"Borderline: score 728, EMI ratio 11%"
+APP0035,93600.0,25875.0,682.0,True,True,True,True,0,0.276,MANUAL_REVIEW,BR-03,"Borderline: score 682, EMI ratio 28%"
+APP0036,114900.0,16962.0,721.0,True,True,True,True,0,0.148,MANUAL_REVIEW,BR-03,"Borderline: score 721, EMI ratio 15%"
+APP0037,69900.0,36992.0,813.0,True,True,True,True,0,0.529,AUTO_REJECT,BR-04,Score 813 / EMI ratio 53% outside limits
+APP0038,52300.0,5635.0,756.0,True,True,False,True,0,0.108,RETURNED,BR-01,Missing documents: salary_slip
+APP0039,52600.0,18049.0,609.0,True,True,True,True,0,0.343,AUTO_REJECT,BR-04,Score 609 / EMI ratio 34% outside limits
+APP0040,94900.0,24917.0,706.0,True,True,True,True,0,0.263,MANUAL_REVIEW,BR-03,"Borderline: score 706, EMI ratio 26%"
+APP0041,98400.0,21754.0,836.0,True,True,True,True,0,0.221,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0042,90900.0,11181.0,706.0,True,True,True,True,0,0.123,MANUAL_REVIEW,BR-03,"Borderline: score 706, EMI ratio 12%"
+APP0043,56000.0,30571.0,,True,True,True,True,0,0.546,MANUAL_REVIEW,BR-05,Credit score unavailable
+APP0044,80200.0,7628.0,843.0,True,True,True,True,0,0.095,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0045,76600.0,11212.0,764.0,True,True,True,False,2,0.146,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0046,79800.0,5878.0,715.0,True,True,True,True,0,0.074,MANUAL_REVIEW,BR-03,"Borderline: score 715, EMI ratio 7%"
+APP0047,103600.0,52900.0,696.0,True,True,False,True,0,0.511,RETURNED,BR-01,Missing documents: salary_slip
+APP0048,80000.0,53475.0,790.0,True,True,True,True,0,0.668,AUTO_REJECT,BR-04,Score 790 / EMI ratio 67% outside limits
+APP0049,95900.0,24629.0,685.0,True,True,True,True,0,0.257,MANUAL_REVIEW,BR-03,"Borderline: score 685, EMI ratio 26%"
+APP0050,75100.0,56350.0,795.0,True,True,True,True,0,0.75,AUTO_REJECT,BR-04,Score 795 / EMI ratio 75% outside limits
+APP0051,82100.0,11021.0,755.0,True,True,True,True,0,0.134,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0052,94100.0,9028.0,736.0,True,True,True,True,0,0.096,MANUAL_REVIEW,BR-03,"Borderline: score 736, EMI ratio 10%"
+APP0053,40800.0,8989.0,729.0,True,True,True,True,0,0.22,MANUAL_REVIEW,BR-03,"Borderline: score 729, EMI ratio 22%"
+APP0054,64400.0,15046.0,709.0,True,True,True,True,0,0.234,MANUAL_REVIEW,BR-03,"Borderline: score 709, EMI ratio 23%"
+APP0055,60600.0,7211.0,788.0,True,True,True,True,0,0.119,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0056,56600.0,5814.0,664.0,True,True,True,True,0,0.103,MANUAL_REVIEW,BR-03,"Borderline: score 664, EMI ratio 10%"
+APP0057,65500.0,38812.0,615.0,True,True,True,True,0,0.593,AUTO_REJECT,BR-04,Score 615 / EMI ratio 59% outside limits
+APP0058,133000.0,20029.0,760.0,True,True,True,True,0,0.151,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0059,51700.0,6133.0,761.0,True,True,True,True,0,0.119,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0060,107700.0,11883.0,751.0,True,True,False,True,0,0.11,RETURNED,BR-01,Missing documents: salary_slip
+APP0061,37300.0,26354.0,747.0,True,True,True,True,0,0.707,AUTO_REJECT,BR-04,Score 747 / EMI ratio 71% outside limits
+APP0062,64000.0,3258.0,699.0,True,False,False,True,0,0.051,RETURNED,BR-01,"Missing documents: aadhaar, salary_slip"
+APP0063,78000.0,11955.0,771.0,True,True,True,False,0,0.153,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0064,92500.0,16707.0,717.0,True,True,True,True,0,0.181,MANUAL_REVIEW,BR-03,"Borderline: score 717, EMI ratio 18%"
+APP0065,97200.0,2722.0,688.0,True,True,True,True,0,0.028,MANUAL_REVIEW,BR-03,"Borderline: score 688, EMI ratio 3%"
+APP0066,100400.0,1035.0,700.0,True,True,True,False,2,0.01,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0067,63600.0,4504.0,851.0,True,True,True,True,0,0.071,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0068,60800.0,23431.0,607.0,True,True,True,True,0,0.385,AUTO_REJECT,BR-04,Score 607 / EMI ratio 39% outside limits
+APP0069,103100.0,9813.0,752.0,True,True,True,True,0,0.095,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0070,67700.0,4025.0,611.0,True,True,True,True,0,0.059,AUTO_REJECT,BR-04,Score 611 / EMI ratio 6% outside limits
+APP0071,43900.0,11404.0,713.0,True,True,True,True,0,0.26,MANUAL_REVIEW,BR-03,"Borderline: score 713, EMI ratio 26%"
+APP0072,46500.0,2185.0,692.0,True,True,True,True,0,0.047,MANUAL_REVIEW,BR-03,"Borderline: score 692, EMI ratio 5%"
+APP0073,50600.0,25396.0,584.0,True,True,True,False,0,0.502,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0074,89200.0,19135.0,745.0,True,True,True,True,0,0.215,MANUAL_REVIEW,BR-03,"Borderline: score 745, EMI ratio 21%"
+APP0075,77400.0,14950.0,695.0,True,True,True,True,0,0.193,MANUAL_REVIEW,BR-03,"Borderline: score 695, EMI ratio 19%"
+APP0076,96400.0,6469.0,584.0,True,True,True,True,0,0.067,AUTO_REJECT,BR-04,Score 584 / EMI ratio 7% outside limits
+APP0077,61600.0,9040.0,775.0,True,True,True,True,0,0.147,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0078,77900.0,7494.0,813.0,True,True,False,False,0,0.096,RETURNED,BR-01,Missing documents: salary_slip
+APP0079,93900.0,10791.0,817.0,False,True,True,True,0,0.115,RETURNED,BR-01,Missing documents: pan
+APP0080,64600.0,28223.0,743.0,True,True,True,True,0,0.437,MANUAL_REVIEW,BR-03,"Borderline: score 743, EMI ratio 44%"
+APP0081,87800.0,4217.0,723.0,False,True,True,True,0,0.048,RETURNED,BR-01,Missing documents: pan
+APP0082,56100.0,4025.0,806.0,True,True,True,True,0,0.072,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0083,63200.0,9296.0,829.0,True,True,True,True,0,0.147,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0084,62800.0,3814.0,794.0,True,True,True,False,2,0.061,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0085,45300.0,25731.0,659.0,True,True,False,True,0,0.568,RETURNED,BR-01,Missing documents: salary_slip
+APP0086,88900.0,39771.0,733.0,True,True,True,True,0,0.447,MANUAL_REVIEW,BR-03,"Borderline: score 733, EMI ratio 45%"
+APP0087,60600.0,2683.0,749.0,True,True,True,True,0,0.044,MANUAL_REVIEW,BR-03,"Borderline: score 749, EMI ratio 4%"
+APP0088,73500.0,24342.0,602.0,True,True,True,True,0,0.331,AUTO_REJECT,BR-04,Score 602 / EMI ratio 33% outside limits
+APP0089,88600.0,14087.0,751.0,True,True,True,True,0,0.159,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0090,87400.0,27121.0,868.0,True,True,True,True,0,0.31,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0091,95400.0,11308.0,762.0,True,True,True,False,2,0.119,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0092,70300.0,15573.0,816.0,True,True,True,True,0,0.222,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0093,61700.0,13640.0,732.0,True,True,True,True,0,0.221,MANUAL_REVIEW,BR-03,"Borderline: score 732, EMI ratio 22%"
+APP0094,70800.0,19598.0,715.0,True,True,True,True,0,0.277,MANUAL_REVIEW,BR-03,"Borderline: score 715, EMI ratio 28%"
+APP0095,37200.0,14279.0,745.0,True,True,True,True,0,0.384,MANUAL_REVIEW,BR-03,"Borderline: score 745, EMI ratio 38%"
+APP0096,41000.0,14375.0,667.0,True,True,True,True,0,0.351,MANUAL_REVIEW,BR-03,"Borderline: score 667, EMI ratio 35%"
+APP0097,43100.0,10669.0,657.0,True,True,True,True,0,0.248,MANUAL_REVIEW,BR-03,"Borderline: score 657, EMI ratio 25%"
+APP0098,49100.0,9775.0,802.0,True,True,True,True,0,0.199,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0099,85800.0,14375.0,809.0,True,False,True,True,0,0.168,RETURNED,BR-01,Missing documents: aadhaar
+APP0100,50900.0,14064.0,656.0,True,True,True,True,0,0.276,MANUAL_REVIEW,BR-03,"Borderline: score 656, EMI ratio 28%"
+APP0101,62900.0,10781.0,783.0,True,True,True,True,0,0.171,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0102,123000.0,14567.0,714.0,True,True,True,True,0,0.118,MANUAL_REVIEW,BR-03,"Borderline: score 714, EMI ratio 12%"
+APP0103,63400.0,9072.0,742.0,True,True,True,True,0,0.143,MANUAL_REVIEW,BR-03,"Borderline: score 742, EMI ratio 14%"
+APP0104,98200.0,3737.0,750.0,True,True,True,True,0,0.038,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0105,50300.0,13417.0,785.0,True,True,True,True,0,0.267,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0106,67400.0,11692.0,725.0,True,True,True,True,0,0.173,MANUAL_REVIEW,BR-03,"Borderline: score 725, EMI ratio 17%"
+APP0107,50000.0,23144.0,812.0,True,True,True,True,0,0.463,MANUAL_REVIEW,BR-03,"Borderline: score 812, EMI ratio 46%"
+APP0108,63900.0,12171.0,740.0,True,True,True,True,0,0.19,MANUAL_REVIEW,BR-03,"Borderline: score 740, EMI ratio 19%"
+APP0109,102300.0,16036.0,761.0,True,True,True,True,0,0.157,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0110,36600.0,8912.0,666.0,False,True,True,True,0,0.243,RETURNED,BR-01,Missing documents: pan
+APP0111,87000.0,5439.0,860.0,True,True,True,True,0,0.063,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0112,80400.0,22138.0,751.0,True,True,True,True,0,0.275,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0113,57700.0,47054.0,766.0,True,True,True,True,0,0.815,AUTO_REJECT,BR-04,Score 766 / EMI ratio 82% outside limits
+APP0114,41000.0,6133.0,615.0,True,True,True,True,0,0.15,AUTO_REJECT,BR-04,Score 615 / EMI ratio 15% outside limits
+APP0115,75300.0,51846.0,667.0,True,True,True,True,0,0.689,AUTO_REJECT,BR-04,Score 667 / EMI ratio 69% outside limits
+APP0116,59200.0,4121.0,800.0,True,True,False,True,0,0.07,RETURNED,BR-01,Missing documents: salary_slip
+APP0117,80300.0,25540.0,739.0,True,True,True,True,0,0.318,MANUAL_REVIEW,BR-03,"Borderline: score 739, EMI ratio 32%"
+APP0118,73800.0,4935.0,596.0,True,True,True,True,0,0.067,AUTO_REJECT,BR-04,Score 596 / EMI ratio 7% outside limits
+APP0119,138800.0,12842.0,787.0,True,True,True,True,0,0.093,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0120,66500.0,6593.0,685.0,True,True,True,True,0,0.099,MANUAL_REVIEW,BR-03,"Borderline: score 685, EMI ratio 10%"
+APP0121,48600.0,2779.0,812.0,True,True,True,True,0,0.057,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0122,78600.0,3785.0,714.0,True,True,True,False,2,0.048,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0123,79900.0,1198.0,733.0,True,False,True,True,0,0.015,RETURNED,BR-01,Missing documents: aadhaar
+APP0124,126000.0,27792.0,797.0,True,True,True,True,0,0.221,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0125,102100.0,15206.0,662.0,True,True,True,True,0,0.149,MANUAL_REVIEW,BR-03,"Borderline: score 662, EMI ratio 15%"
+APP0126,84400.0,2204.0,655.0,True,True,True,True,0,0.026,MANUAL_REVIEW,BR-03,"Borderline: score 655, EMI ratio 3%"
+APP0127,131300.0,13065.0,707.0,True,True,True,True,0,0.1,MANUAL_REVIEW,BR-03,"Borderline: score 707, EMI ratio 10%"
+APP0128,45500.0,48204.0,774.0,True,True,True,False,1,1.059,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0129,56600.0,2722.0,633.0,True,True,True,True,0,0.048,AUTO_REJECT,BR-04,Score 633 / EMI ratio 5% outside limits
+APP0130,50500.0,6277.0,612.0,True,True,True,True,0,0.124,AUTO_REJECT,BR-04,Score 612 / EMI ratio 12% outside limits
+APP0131,62600.0,12530.0,774.0,True,True,True,True,0,0.2,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0132,42200.0,12051.0,681.0,True,True,True,True,0,0.286,MANUAL_REVIEW,BR-03,"Borderline: score 681, EMI ratio 29%"
+APP0133,94300.0,16579.0,695.0,True,True,True,True,0,0.176,MANUAL_REVIEW,BR-03,"Borderline: score 695, EMI ratio 18%"
+APP0134,66900.0,48012.0,599.0,True,True,True,True,0,0.718,AUTO_REJECT,BR-04,Score 599 / EMI ratio 72% outside limits
+APP0135,40600.0,4840.0,676.0,True,True,True,True,0,0.119,MANUAL_REVIEW,BR-03,"Borderline: score 676, EMI ratio 12%"
+APP0136,48700.0,5118.0,,True,True,True,True,0,0.105,MANUAL_REVIEW,BR-05,Credit score unavailable
+APP0137,82900.0,8740.0,780.0,True,True,True,True,0,0.105,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0138,102300.0,3680.0,670.0,True,True,True,True,0,0.036,MANUAL_REVIEW,BR-03,"Borderline: score 670, EMI ratio 4%"
+APP0139,162500.0,22233.0,828.0,True,True,True,True,0,0.137,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0140,234600.0,7834.0,676.0,True,True,True,True,0,0.033,MANUAL_REVIEW,BR-03,"Borderline: score 676, EMI ratio 3%"
+APP0141,86300.0,44371.0,676.0,True,True,True,True,0,0.514,AUTO_REJECT,BR-04,Score 676 / EMI ratio 51% outside limits
+APP0142,49200.0,7331.0,820.0,True,True,True,True,0,0.149,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0143,31200.0,8050.0,734.0,True,True,True,True,0,0.258,MANUAL_REVIEW,BR-03,"Borderline: score 734, EMI ratio 26%"
+APP0144,81400.0,4097.0,684.0,True,True,True,True,0,0.05,MANUAL_REVIEW,BR-03,"Borderline: score 684, EMI ratio 5%"
+APP0145,52800.0,3953.0,710.0,True,True,True,True,0,0.075,MANUAL_REVIEW,BR-03,"Borderline: score 710, EMI ratio 7%"
+APP0146,61900.0,8874.0,808.0,True,True,True,True,0,0.143,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0147,57200.0,3674.0,815.0,True,True,True,True,0,0.064,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0148,69100.0,4648.0,667.0,True,True,True,True,0,0.067,MANUAL_REVIEW,BR-03,"Borderline: score 667, EMI ratio 7%"
+APP0149,112000.0,4696.0,717.0,True,True,True,True,0,0.042,MANUAL_REVIEW,BR-03,"Borderline: score 717, EMI ratio 4%"
+APP0150,77900.0,13992.0,726.0,True,True,True,True,0,0.18,MANUAL_REVIEW,BR-03,"Borderline: score 726, EMI ratio 18%"
+APP0151,68600.0,48204.0,656.0,True,True,True,True,0,0.703,AUTO_REJECT,BR-04,Score 656 / EMI ratio 70% outside limits
+APP0152,48300.0,8593.0,716.0,True,True,True,True,0,0.178,MANUAL_REVIEW,BR-03,"Borderline: score 716, EMI ratio 18%"
+APP0153,37400.0,11404.0,720.0,True,True,True,False,0,0.305,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0154,60200.0,3993.0,794.0,True,True,True,True,0,0.066,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0155,71600.0,9799.0,798.0,True,True,True,True,0,0.137,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0156,148300.0,28462.0,699.0,True,True,True,True,0,0.192,MANUAL_REVIEW,BR-03,"Borderline: score 699, EMI ratio 19%"
+APP0157,77000.0,8497.0,706.0,True,True,True,True,0,0.11,MANUAL_REVIEW,BR-03,"Borderline: score 706, EMI ratio 11%"
+APP0158,108300.0,12722.0,763.0,True,True,True,True,0,0.117,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0159,59900.0,28127.0,682.0,True,True,True,True,0,0.47,MANUAL_REVIEW,BR-03,"Borderline: score 682, EMI ratio 47%"
+APP0160,45500.0,50792.0,758.0,True,True,True,False,0,1.116,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0161,49700.0,14950.0,714.0,True,True,True,True,0,0.301,MANUAL_REVIEW,BR-03,"Borderline: score 714, EMI ratio 30%"
+APP0162,54700.0,3277.0,657.0,True,True,True,True,0,0.06,MANUAL_REVIEW,BR-03,"Borderline: score 657, EMI ratio 6%"
+APP0163,171300.0,9847.0,658.0,True,True,True,True,0,0.057,MANUAL_REVIEW,BR-03,"Borderline: score 658, EMI ratio 6%"
+APP0164,52700.0,10015.0,814.0,True,True,False,True,0,0.19,RETURNED,BR-01,Missing documents: salary_slip
+APP0165,102300.0,21754.0,710.0,True,True,True,True,0,0.213,MANUAL_REVIEW,BR-03,"Borderline: score 710, EMI ratio 21%"
+APP0166,51000.0,34692.0,827.0,True,True,True,True,0,0.68,AUTO_REJECT,BR-04,Score 827 / EMI ratio 68% outside limits
+APP0167,106200.0,6766.0,687.0,True,True,True,True,0,0.064,MANUAL_REVIEW,BR-03,"Borderline: score 687, EMI ratio 6%"
+APP0168,85300.0,48492.0,739.0,True,True,True,True,0,0.568,AUTO_REJECT,BR-04,Score 739 / EMI ratio 57% outside limits
+APP0169,68700.0,10566.0,876.0,True,True,True,True,0,0.154,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0170,71900.0,3115.0,651.0,True,True,True,True,0,0.043,MANUAL_REVIEW,BR-03,"Borderline: score 651, EMI ratio 4%"
+APP0171,56300.0,3690.0,597.0,True,True,True,True,0,0.066,AUTO_REJECT,BR-04,Score 597 / EMI ratio 7% outside limits
+APP0172,87400.0,18256.0,804.0,True,True,True,True,0,0.209,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0173,61000.0,6076.0,666.0,True,True,True,True,0,0.1,MANUAL_REVIEW,BR-03,"Borderline: score 666, EMI ratio 10%"
+APP0174,44800.0,18496.0,719.0,True,True,False,True,0,0.413,RETURNED,BR-01,Missing documents: salary_slip
+APP0175,43900.0,13417.0,682.0,True,True,True,True,0,0.306,MANUAL_REVIEW,BR-03,"Borderline: score 682, EMI ratio 31%"
+APP0176,78400.0,22377.0,737.0,True,True,True,False,1,0.285,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0177,137500.0,24198.0,658.0,True,True,True,True,0,0.176,MANUAL_REVIEW,BR-03,"Borderline: score 658, EMI ratio 18%"
+APP0178,78000.0,34404.0,708.0,True,True,True,True,0,0.441,MANUAL_REVIEW,BR-03,"Borderline: score 708, EMI ratio 44%"
+APP0179,69700.0,5022.0,749.0,True,True,True,True,0,0.072,MANUAL_REVIEW,BR-03,"Borderline: score 749, EMI ratio 7%"
+APP0180,82000.0,9535.0,654.0,True,True,True,True,0,0.116,MANUAL_REVIEW,BR-03,"Borderline: score 654, EMI ratio 12%"
+APP0181,123300.0,10765.0,674.0,True,True,False,True,0,0.087,RETURNED,BR-01,Missing documents: salary_slip
+APP0182,79800.0,10685.0,697.0,True,True,True,True,0,0.134,MANUAL_REVIEW,BR-03,"Borderline: score 697, EMI ratio 13%"
+APP0183,62000.0,6900.0,627.0,False,True,True,True,0,0.111,RETURNED,BR-01,Missing documents: pan
+APP0184,113800.0,20221.0,693.0,True,True,True,True,0,0.178,MANUAL_REVIEW,BR-03,"Borderline: score 693, EMI ratio 18%"
+APP0185,86800.0,4121.0,728.0,True,True,True,True,0,0.047,MANUAL_REVIEW,BR-03,"Borderline: score 728, EMI ratio 5%"
+APP0186,135200.0,2444.0,694.0,True,True,True,True,0,0.018,MANUAL_REVIEW,BR-03,"Borderline: score 694, EMI ratio 2%"
+APP0187,78700.0,8002.0,702.0,True,True,True,True,0,0.102,MANUAL_REVIEW,BR-03,"Borderline: score 702, EMI ratio 10%"
+APP0188,44800.0,51942.0,719.0,True,False,False,True,0,1.159,RETURNED,BR-01,"Missing documents: aadhaar, salary_slip"
+APP0189,42300.0,9703.0,677.0,True,True,True,True,0,0.229,MANUAL_REVIEW,BR-03,"Borderline: score 677, EMI ratio 23%"
+APP0190,141500.0,13896.0,765.0,True,True,True,True,0,0.098,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0191,145700.0,25875.0,813.0,True,True,True,True,0,0.178,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0192,68100.0,14758.0,690.0,True,True,True,True,0,0.217,MANUAL_REVIEW,BR-03,"Borderline: score 690, EMI ratio 22%"
+APP0193,62700.0,14950.0,752.0,True,True,True,True,0,0.238,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0194,131200.0,13536.0,704.0,True,True,True,True,0,0.103,MANUAL_REVIEW,BR-03,"Borderline: score 704, EMI ratio 10%"
+APP0195,47000.0,2651.0,744.0,True,True,True,False,1,0.056,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0196,51100.0,3220.0,822.0,True,True,True,True,0,0.063,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0197,94600.0,17825.0,753.0,True,True,True,True,0,0.188,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0198,62500.0,3028.0,605.0,True,True,False,True,0,0.048,RETURNED,BR-01,Missing documents: salary_slip
+APP0199,73000.0,40633.0,750.0,True,True,True,True,0,0.557,AUTO_REJECT,BR-04,Score 750 / EMI ratio 56% outside limits
+APP0200,68500.0,5367.0,800.0,True,True,True,True,0,0.078,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0201,83700.0,2516.0,706.0,True,True,True,True,0,0.03,MANUAL_REVIEW,BR-03,"Borderline: score 706, EMI ratio 3%"
+APP0202,128400.0,5239.0,785.0,True,True,True,True,0,0.041,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0203,75800.0,5424.0,675.0,True,True,True,False,2,0.072,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0204,94600.0,7044.0,623.0,True,True,True,True,0,0.074,AUTO_REJECT,BR-04,Score 623 / EMI ratio 7% outside limits
+APP0205,32200.0,11883.0,729.0,True,True,True,True,0,0.369,MANUAL_REVIEW,BR-03,"Borderline: score 729, EMI ratio 37%"
+APP0206,71700.0,12530.0,606.0,True,True,True,True,0,0.175,AUTO_REJECT,BR-04,Score 606 / EMI ratio 17% outside limits
+APP0207,52200.0,21658.0,704.0,True,True,True,True,0,0.415,MANUAL_REVIEW,BR-03,"Borderline: score 704, EMI ratio 41%"
+APP0208,44900.0,5942.0,804.0,True,True,True,False,1,0.132,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0209,51500.0,1917.0,596.0,True,True,True,False,1,0.037,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0210,64000.0,4734.0,637.0,False,True,True,False,2,0.074,RETURNED,BR-01,Missing documents: pan
+APP0211,105500.0,6261.0,653.0,True,True,True,True,0,0.059,MANUAL_REVIEW,BR-03,"Borderline: score 653, EMI ratio 6%"
+APP0212,43000.0,7398.0,716.0,False,True,True,True,0,0.172,RETURNED,BR-01,Missing documents: pan
+APP0213,74000.0,15621.0,696.0,True,False,True,True,0,0.211,RETURNED,BR-01,Missing documents: aadhaar
+APP0214,60300.0,17218.0,811.0,True,True,True,True,0,0.286,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0215,64100.0,53762.0,782.0,True,True,True,True,0,0.839,AUTO_REJECT,BR-04,Score 782 / EMI ratio 84% outside limits
+APP0216,109200.0,2516.0,752.0,True,True,True,True,0,0.023,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0217,90700.0,2611.0,729.0,True,True,True,True,0,0.029,MANUAL_REVIEW,BR-03,"Borderline: score 729, EMI ratio 3%"
+APP0218,124900.0,2166.0,746.0,True,True,True,True,0,0.017,MANUAL_REVIEW,BR-03,"Borderline: score 746, EMI ratio 2%"
+APP0219,68700.0,9368.0,664.0,True,True,True,True,0,0.136,MANUAL_REVIEW,BR-03,"Borderline: score 664, EMI ratio 14%"
+APP0220,55400.0,5606.0,776.0,True,True,True,True,0,0.101,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0221,66900.0,49737.0,648.0,True,True,True,True,0,0.743,AUTO_REJECT,BR-04,Score 648 / EMI ratio 74% outside limits
+APP0222,80600.0,8912.0,774.0,True,True,True,True,0,0.111,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0223,78500.0,16004.0,797.0,True,True,True,True,0,0.204,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0224,47400.0,32487.0,734.0,True,True,True,True,0,0.685,AUTO_REJECT,BR-04,Score 734 / EMI ratio 69% outside limits
+APP0225,75800.0,11462.0,709.0,True,True,True,True,0,0.151,MANUAL_REVIEW,BR-03,"Borderline: score 709, EMI ratio 15%"
+APP0226,80100.0,1418.0,746.0,True,True,True,True,0,0.018,MANUAL_REVIEW,BR-03,"Borderline: score 746, EMI ratio 2%"
+APP0227,200200.0,8657.0,534.0,True,True,True,True,0,0.043,AUTO_REJECT,BR-04,Score 534 / EMI ratio 4% outside limits
+APP0228,154900.0,5462.0,740.0,True,True,True,True,0,0.035,MANUAL_REVIEW,BR-03,"Borderline: score 740, EMI ratio 4%"
+APP0229,52000.0,54817.0,713.0,False,True,True,True,0,1.054,RETURNED,BR-01,Missing documents: pan
+APP0230,65200.0,35171.0,,True,True,True,True,0,0.539,MANUAL_REVIEW,BR-05,Credit score unavailable
+APP0231,40700.0,23623.0,766.0,True,True,True,True,0,0.58,AUTO_REJECT,BR-04,Score 766 / EMI ratio 58% outside limits
+APP0232,57700.0,3450.0,715.0,True,True,True,True,0,0.06,MANUAL_REVIEW,BR-03,"Borderline: score 715, EMI ratio 6%"
+APP0233,83000.0,56350.0,646.0,True,True,True,True,0,0.679,AUTO_REJECT,BR-04,Score 646 / EMI ratio 68% outside limits
+APP0234,118500.0,31050.0,711.0,True,True,True,True,0,0.262,MANUAL_REVIEW,BR-03,"Borderline: score 711, EMI ratio 26%"
+APP0235,54600.0,7715.0,724.0,True,True,True,True,0,0.141,MANUAL_REVIEW,BR-03,"Borderline: score 724, EMI ratio 14%"
+APP0236,56300.0,13992.0,727.0,True,True,True,True,0,0.249,MANUAL_REVIEW,BR-03,"Borderline: score 727, EMI ratio 25%"
+APP0237,31000.0,6205.0,731.0,True,True,True,True,0,0.2,MANUAL_REVIEW,BR-03,"Borderline: score 731, EMI ratio 20%"
+APP0238,68500.0,6445.0,,True,True,True,True,0,0.094,MANUAL_REVIEW,BR-05,Credit score unavailable
+APP0239,47800.0,7130.0,649.0,True,True,True,True,0,0.149,AUTO_REJECT,BR-04,Score 649 / EMI ratio 15% outside limits
+APP0240,59200.0,2875.0,731.0,True,True,True,True,0,0.049,MANUAL_REVIEW,BR-03,"Borderline: score 731, EMI ratio 5%"
+APP0241,51500.0,7251.0,804.0,True,True,True,True,0,0.141,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0242,70400.0,2990.0,,True,True,True,True,0,0.042,MANUAL_REVIEW,BR-05,Credit score unavailable
+APP0243,36200.0,5127.0,732.0,True,True,True,True,0,0.142,MANUAL_REVIEW,BR-03,"Borderline: score 732, EMI ratio 14%"
+APP0244,40700.0,50408.0,682.0,True,True,True,True,0,1.239,AUTO_REJECT,BR-04,Score 682 / EMI ratio 124% outside limits
+APP0245,171400.0,8960.0,696.0,True,True,True,True,0,0.052,MANUAL_REVIEW,BR-03,"Borderline: score 696, EMI ratio 5%"
+APP0246,43700.0,11835.0,661.0,True,True,True,True,0,0.271,MANUAL_REVIEW,BR-03,"Borderline: score 661, EMI ratio 27%"
+APP0247,47200.0,5271.0,709.0,True,True,True,False,1,0.112,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0248,152500.0,9168.0,840.0,True,True,True,True,0,0.06,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0249,233800.0,7628.0,638.0,True,True,True,True,0,0.033,AUTO_REJECT,BR-04,Score 638 / EMI ratio 3% outside limits
+APP0250,45800.0,53667.0,644.0,True,True,True,True,0,1.172,AUTO_REJECT,BR-04,Score 644 / EMI ratio 117% outside limits
+APP0251,63100.0,13489.0,635.0,True,True,True,True,0,0.214,AUTO_REJECT,BR-04,Score 635 / EMI ratio 21% outside limits
+APP0252,83800.0,8465.0,832.0,True,True,True,True,0,0.101,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0253,146000.0,7379.0,690.0,False,True,True,True,0,0.051,RETURNED,BR-01,Missing documents: pan
+APP0254,49300.0,14279.0,718.0,True,True,True,True,0,0.29,MANUAL_REVIEW,BR-03,"Borderline: score 718, EMI ratio 29%"
+APP0255,66300.0,6938.0,694.0,True,True,True,True,0,0.105,MANUAL_REVIEW,BR-03,"Borderline: score 694, EMI ratio 10%"
+APP0256,99800.0,14567.0,659.0,True,True,True,True,0,0.146,MANUAL_REVIEW,BR-03,"Borderline: score 659, EMI ratio 15%"
+APP0257,87000.0,7897.0,705.0,True,True,True,True,0,0.091,MANUAL_REVIEW,BR-03,"Borderline: score 705, EMI ratio 9%"
+APP0258,62900.0,11340.0,880.0,True,True,True,True,0,0.18,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0259,69300.0,21658.0,810.0,True,True,True,True,0,0.313,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0260,42200.0,4600.0,665.0,True,True,True,True,0,0.109,MANUAL_REVIEW,BR-03,"Borderline: score 665, EMI ratio 11%"
+APP0261,66500.0,24725.0,762.0,True,True,False,True,0,0.372,RETURNED,BR-01,Missing documents: salary_slip
+APP0262,65700.0,4888.0,666.0,True,True,True,True,0,0.074,MANUAL_REVIEW,BR-03,"Borderline: score 666, EMI ratio 7%"
+APP0263,80200.0,2702.0,605.0,True,True,True,True,0,0.034,AUTO_REJECT,BR-04,Score 605 / EMI ratio 3% outside limits
+APP0264,58600.0,8587.0,786.0,True,True,False,True,0,0.147,RETURNED,BR-01,Missing documents: salary_slip
+APP0265,88300.0,5060.0,795.0,True,True,True,True,0,0.057,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0266,109700.0,5367.0,788.0,True,True,True,True,0,0.049,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0267,77800.0,8601.0,689.0,True,True,True,True,0,0.111,MANUAL_REVIEW,BR-03,"Borderline: score 689, EMI ratio 11%"
+APP0268,84200.0,22329.0,709.0,True,True,True,True,0,0.265,MANUAL_REVIEW,BR-03,"Borderline: score 709, EMI ratio 27%"
+APP0269,74700.0,4600.0,769.0,True,True,True,True,0,0.062,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0270,73100.0,16132.0,745.0,True,True,True,False,1,0.221,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0271,54800.0,53667.0,694.0,True,True,True,True,0,0.979,AUTO_REJECT,BR-04,Score 694 / EMI ratio 98% outside limits
+APP0272,83000.0,12107.0,615.0,True,True,True,True,0,0.146,AUTO_REJECT,BR-04,Score 615 / EMI ratio 15% outside limits
+APP0273,70300.0,13353.0,727.0,True,True,True,True,0,0.19,MANUAL_REVIEW,BR-03,"Borderline: score 727, EMI ratio 19%"
+APP0274,168900.0,3785.0,790.0,True,True,True,True,0,0.022,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0275,137200.0,27312.0,642.0,False,True,True,True,0,0.199,RETURNED,BR-01,Missing documents: pan
+APP0276,85300.0,8497.0,762.0,True,True,True,True,0,0.1,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0277,53900.0,53475.0,742.0,True,True,True,True,0,0.992,AUTO_REJECT,BR-04,Score 742 / EMI ratio 99% outside limits
+APP0278,46900.0,35267.0,769.0,True,True,True,True,0,0.752,AUTO_REJECT,BR-04,Score 769 / EMI ratio 75% outside limits
+APP0279,117800.0,1270.0,777.0,True,True,True,True,0,0.011,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0280,81200.0,3402.0,675.0,True,True,True,False,0,0.042,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0281,88600.0,10158.0,615.0,True,True,True,True,0,0.115,AUTO_REJECT,BR-04,Score 615 / EMI ratio 11% outside limits
+APP0282,36400.0,11468.0,685.0,True,True,True,True,0,0.315,MANUAL_REVIEW,BR-03,"Borderline: score 685, EMI ratio 32%"
+APP0283,106000.0,2076.0,778.0,True,True,True,True,0,0.02,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0284,87700.0,14662.0,685.0,True,True,True,True,0,0.167,MANUAL_REVIEW,BR-03,"Borderline: score 685, EMI ratio 17%"
+APP0285,46900.0,16579.0,675.0,True,True,True,True,0,0.353,MANUAL_REVIEW,BR-03,"Borderline: score 675, EMI ratio 35%"
+APP0286,60600.0,6191.0,602.0,True,True,True,True,0,0.102,AUTO_REJECT,BR-04,Score 602 / EMI ratio 10% outside limits
+APP0287,81300.0,5865.0,834.0,True,True,True,True,0,0.072,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0288,74700.0,2540.0,774.0,True,True,True,True,0,0.034,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0289,65100.0,11572.0,770.0,True,True,True,True,0,0.178,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0290,70200.0,4447.0,783.0,True,False,True,True,0,0.063,RETURNED,BR-01,Missing documents: aadhaar
+APP0291,66100.0,51079.0,757.0,True,True,True,True,0,0.773,AUTO_REJECT,BR-04,Score 757 / EMI ratio 77% outside limits
+APP0292,77700.0,6109.0,704.0,True,True,True,True,0,0.079,MANUAL_REVIEW,BR-03,"Borderline: score 704, EMI ratio 8%"
+APP0293,131700.0,11532.0,709.0,True,True,True,True,0,0.088,MANUAL_REVIEW,BR-03,"Borderline: score 709, EMI ratio 9%"
+APP0294,26200.0,3814.0,692.0,True,True,True,True,0,0.146,MANUAL_REVIEW,BR-03,"Borderline: score 692, EMI ratio 15%"
+APP0295,66500.0,4408.0,891.0,True,True,True,True,0,0.066,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0296,78500.0,9123.0,756.0,False,True,True,True,0,0.116,RETURNED,BR-01,Missing documents: pan
+APP0297,82300.0,30954.0,690.0,True,True,True,True,0,0.376,MANUAL_REVIEW,BR-03,"Borderline: score 690, EMI ratio 38%"
+APP0298,63000.0,33062.0,750.0,True,True,True,True,0,0.525,AUTO_REJECT,BR-04,Score 750 / EMI ratio 52% outside limits
+APP0299,36200.0,11136.0,,True,False,True,False,1,0.308,RETURNED,BR-01,Missing documents: aadhaar
+APP0300,83400.0,18528.0,818.0,True,True,True,True,0,0.222,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0301,145900.0,16643.0,677.0,True,True,True,True,0,0.114,MANUAL_REVIEW,BR-03,"Borderline: score 677, EMI ratio 11%"
+APP0302,39600.0,14662.0,753.0,True,True,True,True,0,0.37,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0303,103300.0,18065.0,789.0,True,True,True,True,0,0.175,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0304,64100.0,10216.0,745.0,True,True,True,False,0,0.159,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0305,71400.0,12267.0,726.0,True,True,False,True,0,0.172,RETURNED,BR-01,Missing documents: salary_slip
+APP0306,48000.0,3386.0,721.0,True,True,True,True,0,0.071,MANUAL_REVIEW,BR-03,"Borderline: score 721, EMI ratio 7%"
+APP0307,64000.0,23767.0,716.0,True,True,True,True,0,0.371,MANUAL_REVIEW,BR-03,"Borderline: score 716, EMI ratio 37%"
+APP0308,123000.0,15094.0,683.0,True,True,True,False,0,0.123,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0309,92300.0,34500.0,691.0,True,True,True,False,2,0.374,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0310,146200.0,11308.0,816.0,True,True,True,True,0,0.077,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0311,117100.0,7360.0,713.0,True,True,True,False,0,0.063,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0312,87200.0,27217.0,669.0,True,True,True,True,0,0.312,MANUAL_REVIEW,BR-03,"Borderline: score 669, EMI ratio 31%"
+APP0313,146900.0,12123.0,686.0,True,True,True,True,0,0.083,MANUAL_REVIEW,BR-03,"Borderline: score 686, EMI ratio 8%"
+APP0314,87200.0,8944.0,,True,True,False,True,0,0.103,RETURNED,BR-01,Missing documents: salary_slip
+APP0315,101800.0,5510.0,764.0,True,True,True,True,0,0.054,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0316,64900.0,11668.0,,True,True,True,True,0,0.18,MANUAL_REVIEW,BR-05,Credit score unavailable
+APP0317,75100.0,24485.0,703.0,True,True,True,True,0,0.326,MANUAL_REVIEW,BR-03,"Borderline: score 703, EMI ratio 33%"
+APP0318,55300.0,19742.0,757.0,True,True,True,True,0,0.357,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0319,108600.0,10398.0,678.0,True,True,True,False,2,0.096,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0320,45600.0,16962.0,703.0,True,True,True,True,0,0.372,MANUAL_REVIEW,BR-03,"Borderline: score 703, EMI ratio 37%"
+APP0321,100000.0,6037.0,783.0,True,True,True,True,0,0.06,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0322,67800.0,6440.0,777.0,True,True,True,False,2,0.095,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0323,116800.0,29229.0,656.0,True,True,True,True,0,0.25,MANUAL_REVIEW,BR-03,"Borderline: score 656, EMI ratio 25%"
+APP0324,98800.0,41208.0,664.0,True,True,True,True,0,0.417,MANUAL_REVIEW,BR-03,"Borderline: score 664, EMI ratio 42%"
+APP0325,151500.0,4472.0,727.0,True,True,True,True,0,0.03,MANUAL_REVIEW,BR-03,"Borderline: score 727, EMI ratio 3%"
+APP0326,98000.0,13353.0,832.0,True,True,True,True,0,0.136,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0327,39000.0,12315.0,595.0,True,True,True,True,0,0.316,AUTO_REJECT,BR-04,Score 595 / EMI ratio 32% outside limits
+APP0328,71200.0,18688.0,738.0,True,True,True,True,0,0.262,MANUAL_REVIEW,BR-03,"Borderline: score 738, EMI ratio 26%"
+APP0329,45800.0,6900.0,631.0,True,True,True,True,0,0.151,AUTO_REJECT,BR-04,Score 631 / EMI ratio 15% outside limits
+APP0330,59400.0,7283.0,679.0,True,True,True,True,0,0.123,MANUAL_REVIEW,BR-03,"Borderline: score 679, EMI ratio 12%"
+APP0331,133900.0,16148.0,696.0,True,True,True,True,0,0.121,MANUAL_REVIEW,BR-03,"Borderline: score 696, EMI ratio 12%"
+APP0332,94400.0,16100.0,693.0,True,False,True,True,0,0.171,RETURNED,BR-01,Missing documents: aadhaar
+APP0333,55300.0,6085.0,685.0,True,True,True,True,0,0.11,MANUAL_REVIEW,BR-03,"Borderline: score 685, EMI ratio 11%"
+APP0334,48800.0,2952.0,720.0,True,True,True,True,0,0.06,MANUAL_REVIEW,BR-03,"Borderline: score 720, EMI ratio 6%"
+APP0335,74100.0,11452.0,685.0,True,True,False,False,0,0.155,RETURNED,BR-01,Missing documents: salary_slip
+APP0336,45000.0,1974.0,625.0,True,True,True,True,0,0.044,AUTO_REJECT,BR-04,Score 625 / EMI ratio 4% outside limits
+APP0337,55900.0,27360.0,771.0,True,True,True,True,0,0.489,MANUAL_REVIEW,BR-03,"Borderline: score 771, EMI ratio 49%"
+APP0338,82900.0,26162.0,769.0,True,True,True,True,0,0.316,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0339,116100.0,23719.0,775.0,True,False,True,True,0,0.204,RETURNED,BR-01,Missing documents: aadhaar
+APP0340,93300.0,28079.0,620.0,True,True,True,True,0,0.301,AUTO_REJECT,BR-04,Score 620 / EMI ratio 30% outside limits
+APP0341,29200.0,9008.0,739.0,True,True,True,True,0,0.308,MANUAL_REVIEW,BR-03,"Borderline: score 739, EMI ratio 31%"
+APP0342,82600.0,13033.0,764.0,True,True,True,True,0,0.158,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0343,75300.0,25348.0,653.0,True,True,True,True,0,0.337,MANUAL_REVIEW,BR-03,"Borderline: score 653, EMI ratio 34%"
+APP0344,86300.0,9559.0,721.0,True,True,True,True,0,0.111,MANUAL_REVIEW,BR-03,"Borderline: score 721, EMI ratio 11%"
+APP0345,139600.0,9136.0,712.0,True,True,True,True,0,0.065,MANUAL_REVIEW,BR-03,"Borderline: score 712, EMI ratio 7%"
+APP0346,32000.0,9168.0,840.0,True,True,True,True,0,0.286,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0347,57700.0,2236.0,845.0,True,True,True,True,0,0.039,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0348,92600.0,32967.0,612.0,True,True,True,True,0,0.356,AUTO_REJECT,BR-04,Score 612 / EMI ratio 36% outside limits
+APP0349,38800.0,14279.0,882.0,True,True,True,True,0,0.368,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0350,132000.0,55296.0,661.0,True,True,True,True,0,0.419,MANUAL_REVIEW,BR-03,"Borderline: score 661, EMI ratio 42%"
+APP0351,84700.0,1725.0,784.0,True,True,True,True,0,0.02,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0352,102600.0,8395.0,783.0,True,True,True,True,0,0.082,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0353,58200.0,5175.0,655.0,True,True,True,True,0,0.089,MANUAL_REVIEW,BR-03,"Borderline: score 655, EMI ratio 9%"
+APP0354,101300.0,17474.0,752.0,True,True,True,True,0,0.172,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0355,112100.0,3594.0,713.0,True,True,True,False,1,0.032,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0356,80300.0,10829.0,756.0,True,True,True,True,0,0.135,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0357,80300.0,24485.0,735.0,True,True,True,True,0,0.305,MANUAL_REVIEW,BR-03,"Borderline: score 735, EMI ratio 30%"
+APP0358,81500.0,3674.0,798.0,True,True,True,True,0,0.045,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0359,51800.0,1989.0,725.0,True,False,True,True,0,0.038,RETURNED,BR-01,Missing documents: aadhaar
+APP0360,68900.0,9756.0,709.0,True,True,True,True,0,0.142,MANUAL_REVIEW,BR-03,"Borderline: score 709, EMI ratio 14%"
+APP0361,68800.0,2607.0,791.0,True,True,True,True,0,0.038,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0362,85300.0,32967.0,758.0,True,True,True,True,0,0.386,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0363,109100.0,10618.0,768.0,True,True,True,True,0,0.097,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0364,47900.0,34692.0,677.0,True,True,True,True,0,0.724,AUTO_REJECT,BR-04,Score 677 / EMI ratio 72% outside limits
+APP0365,69600.0,8561.0,652.0,True,True,True,True,0,0.123,MANUAL_REVIEW,BR-03,"Borderline: score 652, EMI ratio 12%"
+APP0366,132300.0,5654.0,683.0,True,True,True,False,1,0.043,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0367,54300.0,2036.0,680.0,True,True,True,True,0,0.037,MANUAL_REVIEW,BR-03,"Borderline: score 680, EMI ratio 4%"
+APP0368,52600.0,11174.0,771.0,True,True,True,True,0,0.212,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0369,79300.0,10590.0,783.0,True,True,True,True,0,0.134,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0370,102500.0,7379.0,710.0,True,True,True,False,2,0.072,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0371,73500.0,9919.0,813.0,True,True,True,True,0,0.135,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0372,124400.0,27792.0,809.0,True,True,True,True,0,0.223,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0373,103000.0,2444.0,736.0,True,True,True,True,0,0.024,MANUAL_REVIEW,BR-03,"Borderline: score 736, EMI ratio 2%"
+APP0374,102400.0,16835.0,667.0,True,True,True,True,0,0.164,MANUAL_REVIEW,BR-03,"Borderline: score 667, EMI ratio 16%"
+APP0375,91300.0,10518.0,822.0,True,True,True,True,0,0.115,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0376,185500.0,16196.0,716.0,True,True,True,True,0,0.087,MANUAL_REVIEW,BR-03,"Borderline: score 716, EMI ratio 9%"
+APP0377,67400.0,28127.0,728.0,True,True,True,True,0,0.417,MANUAL_REVIEW,BR-03,"Borderline: score 728, EMI ratio 42%"
+APP0378,32800.0,49162.0,698.0,True,True,True,True,0,1.499,AUTO_REJECT,BR-04,Score 698 / EMI ratio 150% outside limits
+APP0379,138900.0,18176.0,662.0,True,True,True,True,0,0.131,MANUAL_REVIEW,BR-03,"Borderline: score 662, EMI ratio 13%"
+APP0380,60900.0,2300.0,625.0,True,True,True,True,0,0.038,AUTO_REJECT,BR-04,Score 625 / EMI ratio 4% outside limits
+APP0381,76400.0,9353.0,761.0,True,True,True,True,0,0.122,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0382,123500.0,16771.0,669.0,True,False,True,True,0,0.136,RETURNED,BR-01,Missing documents: aadhaar
+APP0383,38500.0,11149.0,900.0,True,True,True,True,0,0.29,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0384,44300.0,13033.0,649.0,True,True,True,True,0,0.294,AUTO_REJECT,BR-04,Score 649 / EMI ratio 29% outside limits
+APP0385,38500.0,13992.0,638.0,True,True,True,True,0,0.363,AUTO_REJECT,BR-04,Score 638 / EMI ratio 36% outside limits
+APP0386,53200.0,41975.0,753.0,True,True,True,True,0,0.789,AUTO_REJECT,BR-04,Score 753 / EMI ratio 79% outside limits
+APP0387,87200.0,10094.0,819.0,True,True,True,True,0,0.116,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0388,90200.0,28846.0,724.0,True,True,True,True,0,0.32,MANUAL_REVIEW,BR-03,"Borderline: score 724, EMI ratio 32%"
+APP0389,81700.0,25108.0,757.0,True,True,True,True,0,0.307,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0390,41600.0,5966.0,600.0,True,True,True,True,0,0.143,AUTO_REJECT,BR-04,Score 600 / EMI ratio 14% outside limits
+APP0391,29000.0,25396.0,676.0,True,True,True,False,0,0.876,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0392,74700.0,4744.0,650.0,True,True,True,True,0,0.064,MANUAL_REVIEW,BR-03,"Borderline: score 650, EMI ratio 6%"
+APP0393,60600.0,2971.0,597.0,True,True,True,True,0,0.049,AUTO_REJECT,BR-04,Score 597 / EMI ratio 5% outside limits
+APP0394,87900.0,11476.0,728.0,True,True,True,True,0,0.131,MANUAL_REVIEW,BR-03,"Borderline: score 728, EMI ratio 13%"
+APP0395,96800.0,9424.0,574.0,True,True,True,True,0,0.097,AUTO_REJECT,BR-04,Score 574 / EMI ratio 10% outside limits
+APP0396,77300.0,53858.0,634.0,True,True,True,True,0,0.697,AUTO_REJECT,BR-04,Score 634 / EMI ratio 70% outside limits
+APP0397,99100.0,9272.0,685.0,True,True,True,True,0,0.094,MANUAL_REVIEW,BR-03,"Borderline: score 685, EMI ratio 9%"
+APP0398,80200.0,1322.0,666.0,True,False,True,True,0,0.016,RETURNED,BR-01,Missing documents: aadhaar
+APP0399,90400.0,2626.0,746.0,True,True,True,True,0,0.029,MANUAL_REVIEW,BR-03,"Borderline: score 746, EMI ratio 3%"
+APP0400,55200.0,3905.0,740.0,True,True,True,True,0,0.071,MANUAL_REVIEW,BR-03,"Borderline: score 740, EMI ratio 7%"
+APP0401,68100.0,18751.0,778.0,True,True,True,True,0,0.275,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0402,79100.0,3258.0,769.0,True,True,True,True,0,0.041,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0403,101500.0,10669.0,794.0,False,True,True,True,0,0.105,RETURNED,BR-01,Missing documents: pan
+APP0404,62500.0,54146.0,720.0,True,True,True,True,0,0.866,AUTO_REJECT,BR-04,Score 720 / EMI ratio 87% outside limits
+APP0405,90100.0,11251.0,740.0,True,True,True,True,0,0.125,MANUAL_REVIEW,BR-03,"Borderline: score 740, EMI ratio 12%"
+APP0406,65800.0,8625.0,753.0,False,True,True,False,1,0.131,RETURNED,BR-01,Missing documents: pan
+APP0407,69800.0,1476.0,729.0,True,True,True,False,0,0.021,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0408,101900.0,6421.0,694.0,True,True,True,True,0,0.063,MANUAL_REVIEW,BR-03,"Borderline: score 694, EMI ratio 6%"
+APP0409,33000.0,1629.0,698.0,True,True,True,True,0,0.049,MANUAL_REVIEW,BR-03,"Borderline: score 698, EMI ratio 5%"
+APP0410,43500.0,5015.0,667.0,True,True,True,True,0,0.115,MANUAL_REVIEW,BR-03,"Borderline: score 667, EMI ratio 12%"
+APP0411,40400.0,11596.0,747.0,True,True,True,False,0,0.287,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0412,28800.0,26450.0,714.0,True,True,True,True,0,0.918,AUTO_REJECT,BR-04,Score 714 / EMI ratio 92% outside limits
+APP0413,55800.0,6612.0,677.0,True,True,False,True,0,0.118,RETURNED,BR-01,Missing documents: salary_slip
+APP0414,98700.0,37758.0,677.0,True,True,True,True,0,0.383,MANUAL_REVIEW,BR-03,"Borderline: score 677, EMI ratio 38%"
+APP0415,65300.0,5143.0,641.0,True,True,True,True,0,0.079,AUTO_REJECT,BR-04,Score 641 / EMI ratio 8% outside limits
+APP0416,79200.0,23479.0,784.0,True,True,True,True,0,0.296,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0417,113100.0,12458.0,725.0,True,True,True,True,0,0.11,MANUAL_REVIEW,BR-03,"Borderline: score 725, EMI ratio 11%"
+APP0418,124400.0,25156.0,664.0,True,True,True,True,0,0.202,MANUAL_REVIEW,BR-03,"Borderline: score 664, EMI ratio 20%"
+APP0419,71100.0,13704.0,773.0,True,True,True,True,0,0.193,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0420,125700.0,11548.0,684.0,True,True,True,True,0,0.092,MANUAL_REVIEW,BR-03,"Borderline: score 684, EMI ratio 9%"
+APP0421,75900.0,9583.0,629.0,True,True,True,True,0,0.126,AUTO_REJECT,BR-04,Score 629 / EMI ratio 13% outside limits
+APP0422,52300.0,16675.0,786.0,True,True,True,True,0,0.319,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0423,57700.0,6972.0,685.0,True,True,True,True,0,0.121,MANUAL_REVIEW,BR-03,"Borderline: score 685, EMI ratio 12%"
+APP0424,40400.0,27312.0,693.0,True,True,True,True,0,0.676,AUTO_REJECT,BR-04,Score 693 / EMI ratio 68% outside limits
+APP0425,51300.0,12362.0,723.0,True,True,True,True,0,0.241,MANUAL_REVIEW,BR-03,"Borderline: score 723, EMI ratio 24%"
+APP0426,63400.0,11356.0,794.0,True,True,False,True,0,0.179,RETURNED,BR-01,Missing documents: salary_slip
+APP0427,100900.0,16627.0,721.0,True,True,True,True,0,0.165,MANUAL_REVIEW,BR-03,"Borderline: score 721, EMI ratio 16%"
+APP0428,145600.0,7235.0,642.0,False,True,True,True,0,0.05,RETURNED,BR-01,Missing documents: pan
+APP0429,42100.0,10829.0,755.0,True,True,True,True,0,0.257,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0430,85600.0,19598.0,688.0,True,True,True,False,2,0.229,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0431,48200.0,10062.0,843.0,True,True,True,True,0,0.209,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0432,88400.0,9232.0,720.0,True,True,True,False,2,0.104,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0433,69400.0,3373.0,,True,True,True,True,0,0.049,MANUAL_REVIEW,BR-05,Credit score unavailable
+APP0434,35200.0,10709.0,743.0,True,True,True,True,0,0.304,MANUAL_REVIEW,BR-03,"Borderline: score 743, EMI ratio 30%"
+APP0435,106000.0,13704.0,846.0,True,True,True,True,0,0.129,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0436,57400.0,27073.0,822.0,True,True,True,True,0,0.472,MANUAL_REVIEW,BR-03,"Borderline: score 822, EMI ratio 47%"
+APP0437,59100.0,7331.0,839.0,True,True,True,True,0,0.124,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0438,47700.0,3482.0,654.0,True,True,True,True,0,0.073,MANUAL_REVIEW,BR-03,"Borderline: score 654, EMI ratio 7%"
+APP0439,56300.0,15525.0,779.0,True,True,True,True,0,0.276,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0440,86800.0,6440.0,673.0,True,True,True,True,0,0.074,MANUAL_REVIEW,BR-03,"Borderline: score 673, EMI ratio 7%"
+APP0441,67800.0,15812.0,735.0,True,True,True,False,0,0.233,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0442,83400.0,9264.0,637.0,True,True,True,True,0,0.111,AUTO_REJECT,BR-04,Score 637 / EMI ratio 11% outside limits
+APP0443,84500.0,57212.0,678.0,True,True,True,True,0,0.677,AUTO_REJECT,BR-04,Score 678 / EMI ratio 68% outside limits
+APP0444,124000.0,6076.0,676.0,True,True,True,True,0,0.049,MANUAL_REVIEW,BR-03,"Borderline: score 676, EMI ratio 5%"
+APP0445,63800.0,5999.0,778.0,True,True,True,True,0,0.094,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0446,40500.0,6756.0,772.0,True,True,False,True,0,0.167,RETURNED,BR-01,Missing documents: salary_slip
+APP0447,112100.0,4169.0,738.0,True,True,True,True,0,0.037,MANUAL_REVIEW,BR-03,"Borderline: score 738, EMI ratio 4%"
+APP0448,64000.0,36033.0,632.0,True,True,True,True,0,0.563,AUTO_REJECT,BR-04,Score 632 / EMI ratio 56% outside limits
+APP0449,114200.0,4193.0,700.0,True,True,True,True,0,0.037,MANUAL_REVIEW,BR-03,"Borderline: score 700, EMI ratio 4%"
+APP0450,85300.0,12810.0,672.0,True,False,False,True,0,0.15,RETURNED,BR-01,"Missing documents: aadhaar, salary_slip"
+APP0451,69400.0,1495.0,777.0,True,True,True,True,0,0.022,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0452,84100.0,14135.0,797.0,True,True,True,False,1,0.168,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0453,159600.0,9839.0,789.0,True,True,True,True,0,0.062,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0454,167800.0,10408.0,671.0,True,True,True,True,0,0.062,MANUAL_REVIEW,BR-03,"Borderline: score 671, EMI ratio 6%"
+APP0455,75200.0,5980.0,542.0,True,True,False,True,0,0.08,RETURNED,BR-01,Missing documents: salary_slip
+APP0456,78000.0,2651.0,605.0,True,True,False,True,0,0.034,RETURNED,BR-01,Missing documents: salary_slip
+APP0457,112500.0,48108.0,812.0,True,True,True,True,0,0.428,MANUAL_REVIEW,BR-03,"Borderline: score 812, EMI ratio 43%"
+APP0458,52100.0,39004.0,694.0,True,True,True,True,0,0.749,AUTO_REJECT,BR-04,Score 694 / EMI ratio 75% outside limits
+APP0459,83600.0,15333.0,671.0,True,True,True,True,0,0.183,MANUAL_REVIEW,BR-03,"Borderline: score 671, EMI ratio 18%"
+APP0460,72400.0,9104.0,827.0,True,True,True,True,0,0.126,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0461,82900.0,38429.0,802.0,True,True,True,True,0,0.464,MANUAL_REVIEW,BR-03,"Borderline: score 802, EMI ratio 46%"
+APP0462,52400.0,49929.0,722.0,True,True,True,True,0,0.953,AUTO_REJECT,BR-04,Score 722 / EMI ratio 95% outside limits
+APP0463,38700.0,9511.0,701.0,True,True,True,True,0,0.246,MANUAL_REVIEW,BR-03,"Borderline: score 701, EMI ratio 25%"
+APP0464,31900.0,5774.0,711.0,True,True,True,True,0,0.181,MANUAL_REVIEW,BR-03,"Borderline: score 711, EMI ratio 18%"
+APP0465,46800.0,39675.0,735.0,True,True,True,True,0,0.848,AUTO_REJECT,BR-04,Score 735 / EMI ratio 85% outside limits
+APP0466,60900.0,13417.0,824.0,True,True,True,True,0,0.22,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0467,65000.0,55392.0,747.0,False,True,True,True,0,0.852,RETURNED,BR-01,Missing documents: pan
+APP0468,158700.0,6085.0,767.0,False,True,False,True,0,0.038,RETURNED,BR-01,"Missing documents: pan, salary_slip"
+APP0469,113800.0,5443.0,796.0,True,True,True,True,0,0.048,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0470,49800.0,9526.0,644.0,True,True,True,True,0,0.191,AUTO_REJECT,BR-04,Score 644 / EMI ratio 19% outside limits
+APP0471,84000.0,10478.0,769.0,True,False,True,True,0,0.125,RETURNED,BR-01,Missing documents: aadhaar
+APP0472,62100.0,10901.0,701.0,True,True,True,False,0,0.176,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0473,65300.0,5808.0,556.0,True,True,True,True,0,0.089,AUTO_REJECT,BR-04,Score 556 / EMI ratio 9% outside limits
+APP0474,78800.0,4049.0,582.0,True,True,True,True,0,0.051,AUTO_REJECT,BR-04,Score 582 / EMI ratio 5% outside limits
+APP0475,93700.0,14694.0,654.0,True,True,True,True,0,0.157,MANUAL_REVIEW,BR-03,"Borderline: score 654, EMI ratio 16%"
+APP0476,63900.0,2923.0,755.0,True,True,True,False,0,0.046,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0477,111900.0,5079.0,727.0,True,True,True,True,0,0.045,MANUAL_REVIEW,BR-03,"Borderline: score 727, EMI ratio 5%"
+APP0478,46300.0,7571.0,732.0,True,True,True,True,0,0.164,MANUAL_REVIEW,BR-03,"Borderline: score 732, EMI ratio 16%"
+APP0479,73300.0,14726.0,847.0,True,False,True,True,0,0.201,RETURNED,BR-01,Missing documents: aadhaar
+APP0480,206700.0,10388.0,638.0,True,True,True,True,0,0.05,AUTO_REJECT,BR-04,Score 638 / EMI ratio 5% outside limits
+APP0481,80000.0,19167.0,718.0,True,True,True,True,0,0.24,MANUAL_REVIEW,BR-03,"Borderline: score 718, EMI ratio 24%"
+APP0482,129700.0,10638.0,740.0,True,True,True,True,0,0.082,MANUAL_REVIEW,BR-03,"Borderline: score 740, EMI ratio 8%"
+APP0483,75900.0,55200.0,672.0,True,True,True,True,0,0.727,AUTO_REJECT,BR-04,Score 672 / EMI ratio 73% outside limits
+APP0484,92300.0,4312.0,722.0,True,True,True,True,0,0.047,MANUAL_REVIEW,BR-03,"Borderline: score 722, EMI ratio 5%"
+APP0485,71500.0,3809.0,616.0,True,True,True,True,0,0.053,AUTO_REJECT,BR-04,Score 616 / EMI ratio 5% outside limits
+APP0486,68300.0,10062.0,812.0,True,True,True,True,0,0.147,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0487,53500.0,32679.0,676.0,True,True,True,True,0,0.611,AUTO_REJECT,BR-04,Score 676 / EMI ratio 61% outside limits
+APP0488,86900.0,10273.0,852.0,True,True,True,True,0,0.118,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0489,52000.0,11212.0,718.0,True,True,True,True,0,0.216,MANUAL_REVIEW,BR-03,"Borderline: score 718, EMI ratio 22%"
+APP0490,95400.0,10518.0,787.0,True,True,True,True,0,0.11,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0491,112900.0,4664.0,717.0,True,True,True,True,0,0.041,MANUAL_REVIEW,BR-03,"Borderline: score 717, EMI ratio 4%"
+APP0492,84700.0,7890.0,718.0,True,False,True,True,0,0.093,RETURNED,BR-01,Missing documents: aadhaar
+APP0493,65200.0,29996.0,682.0,True,False,True,True,0,0.46,RETURNED,BR-01,Missing documents: aadhaar
+APP0494,87700.0,12554.0,728.0,True,True,True,True,0,0.143,MANUAL_REVIEW,BR-03,"Borderline: score 728, EMI ratio 14%"
+APP0495,64600.0,3833.0,741.0,True,True,True,True,0,0.059,MANUAL_REVIEW,BR-03,"Borderline: score 741, EMI ratio 6%"
+APP0496,106300.0,10542.0,669.0,True,True,True,True,0,0.099,MANUAL_REVIEW,BR-03,"Borderline: score 669, EMI ratio 10%"
+APP0497,35200.0,2875.0,712.0,True,True,True,True,0,0.082,MANUAL_REVIEW,BR-03,"Borderline: score 712, EMI ratio 8%"
+APP0498,63900.0,8457.0,680.0,True,True,True,True,0,0.132,MANUAL_REVIEW,BR-03,"Borderline: score 680, EMI ratio 13%"
+APP0499,33000.0,20988.0,869.0,True,True,False,True,0,0.636,RETURNED,BR-01,Missing documents: salary_slip
+APP0500,40200.0,4217.0,714.0,True,True,True,True,0,0.105,MANUAL_REVIEW,BR-03,"Borderline: score 714, EMI ratio 10%"
+APP0501,126200.0,7547.0,820.0,True,True,True,True,0,0.06,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0502,104600.0,46000.0,707.0,True,True,True,True,0,0.44,MANUAL_REVIEW,BR-03,"Borderline: score 707, EMI ratio 44%"
+APP0503,54800.0,14726.0,737.0,True,True,True,True,0,0.269,MANUAL_REVIEW,BR-03,"Borderline: score 737, EMI ratio 27%"
+APP0504,40100.0,9545.0,634.0,True,True,True,True,0,0.238,AUTO_REJECT,BR-04,Score 634 / EMI ratio 24% outside limits
+APP0505,22300.0,7116.0,691.0,True,True,True,True,0,0.319,MANUAL_REVIEW,BR-03,"Borderline: score 691, EMI ratio 32%"
+APP0506,58800.0,12003.0,734.0,True,True,True,True,0,0.204,MANUAL_REVIEW,BR-03,"Borderline: score 734, EMI ratio 20%"
+APP0507,192600.0,17442.0,823.0,True,True,True,True,0,0.091,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0508,87000.0,23767.0,734.0,True,True,True,True,0,0.273,MANUAL_REVIEW,BR-03,"Borderline: score 734, EMI ratio 27%"
+APP0509,58500.0,7044.0,810.0,True,True,True,True,0,0.12,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0510,88100.0,14710.0,762.0,True,False,True,True,0,0.167,RETURNED,BR-01,Missing documents: aadhaar
+APP0511,39200.0,25492.0,826.0,True,True,True,True,0,0.65,AUTO_REJECT,BR-04,Score 826 / EMI ratio 65% outside limits
+APP0512,64900.0,3507.0,,True,True,True,True,0,0.054,MANUAL_REVIEW,BR-05,Credit score unavailable
+APP0513,76100.0,44371.0,875.0,True,True,True,True,0,0.583,AUTO_REJECT,BR-04,Score 875 / EMI ratio 58% outside limits
+APP0514,70700.0,5343.0,688.0,True,True,True,False,2,0.076,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0515,100300.0,6389.0,670.0,True,True,True,True,0,0.064,MANUAL_REVIEW,BR-03,"Borderline: score 670, EMI ratio 6%"
+APP0516,83900.0,2923.0,641.0,True,True,True,True,0,0.035,AUTO_REJECT,BR-04,Score 641 / EMI ratio 3% outside limits
+APP0517,95500.0,13944.0,872.0,True,True,True,True,0,0.146,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0518,55500.0,10398.0,773.0,True,True,True,True,0,0.187,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0519,104700.0,6061.0,698.0,True,False,True,True,0,0.058,RETURNED,BR-01,Missing documents: aadhaar
+APP0520,140300.0,8625.0,801.0,True,True,True,False,2,0.061,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0521,49600.0,11260.0,765.0,True,True,True,True,0,0.227,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0522,51300.0,53858.0,848.0,True,True,True,True,0,1.05,AUTO_REJECT,BR-04,Score 848 / EMI ratio 105% outside limits
+APP0523,124800.0,31050.0,619.0,True,True,True,True,0,0.249,AUTO_REJECT,BR-04,Score 619 / EMI ratio 25% outside limits
+APP0524,67700.0,9679.0,703.0,True,True,True,True,0,0.143,MANUAL_REVIEW,BR-03,"Borderline: score 703, EMI ratio 14%"
+APP0525,128200.0,12626.0,690.0,True,True,True,True,0,0.098,MANUAL_REVIEW,BR-03,"Borderline: score 690, EMI ratio 10%"
+APP0526,61300.0,57404.0,592.0,True,True,True,True,0,0.936,AUTO_REJECT,BR-04,Score 592 / EMI ratio 94% outside limits
+APP0527,130900.0,7417.0,789.0,True,True,True,True,0,0.057,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0528,77100.0,51654.0,702.0,True,True,True,True,0,0.67,AUTO_REJECT,BR-04,Score 702 / EMI ratio 67% outside limits
+APP0529,81100.0,10542.0,768.0,True,True,True,False,2,0.13,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0530,136700.0,11620.0,873.0,True,True,True,True,0,0.085,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0531,63300.0,5827.0,697.0,True,True,True,True,0,0.092,MANUAL_REVIEW,BR-03,"Borderline: score 697, EMI ratio 9%"
+APP0532,50200.0,1821.0,693.0,True,True,True,False,0,0.036,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0533,61100.0,2827.0,728.0,True,True,True,True,0,0.046,MANUAL_REVIEW,BR-03,"Borderline: score 728, EMI ratio 5%"
+APP0534,87600.0,7475.0,784.0,True,True,True,False,2,0.085,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0535,39100.0,15429.0,683.0,True,True,True,True,0,0.395,MANUAL_REVIEW,BR-03,"Borderline: score 683, EMI ratio 39%"
+APP0536,94400.0,8753.0,679.0,True,True,True,True,0,0.093,MANUAL_REVIEW,BR-03,"Borderline: score 679, EMI ratio 9%"
+APP0537,59000.0,17346.0,789.0,True,True,False,True,0,0.294,RETURNED,BR-01,Missing documents: salary_slip
+APP0538,115700.0,11308.0,745.0,True,True,True,True,0,0.098,MANUAL_REVIEW,BR-03,"Borderline: score 745, EMI ratio 10%"
+APP0539,28100.0,9775.0,587.0,True,True,True,True,0,0.348,AUTO_REJECT,BR-04,Score 587 / EMI ratio 35% outside limits
+APP0540,53400.0,3514.0,640.0,False,True,True,True,0,0.066,RETURNED,BR-01,Missing documents: pan
+APP0541,37300.0,16675.0,818.0,True,True,True,True,0,0.447,MANUAL_REVIEW,BR-03,"Borderline: score 818, EMI ratio 45%"
+APP0542,52500.0,23288.0,746.0,True,True,True,True,0,0.444,MANUAL_REVIEW,BR-03,"Borderline: score 746, EMI ratio 44%"
+APP0543,80700.0,12362.0,670.0,True,True,False,False,2,0.153,RETURNED,BR-01,Missing documents: salary_slip
+APP0544,68100.0,19071.0,709.0,True,True,True,True,0,0.28,MANUAL_REVIEW,BR-03,"Borderline: score 709, EMI ratio 28%"
+APP0545,66100.0,16931.0,721.0,True,True,True,True,0,0.256,MANUAL_REVIEW,BR-03,"Borderline: score 721, EMI ratio 26%"
+APP0546,68600.0,17218.0,768.0,True,True,True,True,0,0.251,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0547,79300.0,10685.0,632.0,True,True,True,True,0,0.135,AUTO_REJECT,BR-04,Score 632 / EMI ratio 13% outside limits
+APP0548,48900.0,8657.0,665.0,True,True,True,True,0,0.177,MANUAL_REVIEW,BR-03,"Borderline: score 665, EMI ratio 18%"
+APP0549,97000.0,4720.0,738.0,True,True,True,True,0,0.049,MANUAL_REVIEW,BR-03,"Borderline: score 738, EMI ratio 5%"
+APP0550,95300.0,7341.0,714.0,True,True,True,True,0,0.077,MANUAL_REVIEW,BR-03,"Borderline: score 714, EMI ratio 8%"
+APP0551,85300.0,13560.0,757.0,True,True,True,True,0,0.159,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0552,91400.0,4600.0,640.0,True,True,True,True,0,0.05,AUTO_REJECT,BR-04,Score 640 / EMI ratio 5% outside limits
+APP0553,82300.0,6823.0,743.0,True,True,True,True,0,0.083,MANUAL_REVIEW,BR-03,"Borderline: score 743, EMI ratio 8%"
+APP0554,165100.0,20412.0,791.0,True,True,True,True,0,0.124,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0555,70600.0,6852.0,752.0,True,True,True,True,0,0.097,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0556,64700.0,7523.0,729.0,True,True,True,True,0,0.116,MANUAL_REVIEW,BR-03,"Borderline: score 729, EMI ratio 12%"
+APP0557,54100.0,7858.0,714.0,True,False,True,True,0,0.145,RETURNED,BR-01,Missing documents: aadhaar
+APP0558,48400.0,54817.0,666.0,True,True,True,True,0,1.133,AUTO_REJECT,BR-04,Score 666 / EMI ratio 113% outside limits
+APP0559,44500.0,6517.0,715.0,True,True,False,True,0,0.146,RETURNED,BR-01,Missing documents: salary_slip
+APP0560,51300.0,24390.0,802.0,True,True,True,True,0,0.475,MANUAL_REVIEW,BR-03,"Borderline: score 802, EMI ratio 48%"
+APP0561,71100.0,40729.0,712.0,True,True,True,True,0,0.573,AUTO_REJECT,BR-04,Score 712 / EMI ratio 57% outside limits
+APP0562,83600.0,7475.0,662.0,True,True,True,True,0,0.089,MANUAL_REVIEW,BR-03,"Borderline: score 662, EMI ratio 9%"
+APP0563,74600.0,7044.0,688.0,True,True,True,True,0,0.094,MANUAL_REVIEW,BR-03,"Borderline: score 688, EMI ratio 9%"
+APP0564,53800.0,47629.0,733.0,True,True,True,True,0,0.885,AUTO_REJECT,BR-04,Score 733 / EMI ratio 89% outside limits
+APP0565,104800.0,18783.0,696.0,True,False,True,True,0,0.179,RETURNED,BR-01,Missing documents: aadhaar
+APP0566,98300.0,13225.0,752.0,True,True,True,True,0,0.135,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0567,68600.0,2434.0,754.0,True,True,True,True,0,0.035,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0568,56300.0,13512.0,778.0,True,True,True,True,0,0.24,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0569,91100.0,11931.0,813.0,True,True,True,True,0,0.131,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0570,78800.0,3431.0,785.0,True,True,True,True,0,0.044,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0571,41000.0,3872.0,659.0,True,True,True,True,0,0.094,MANUAL_REVIEW,BR-03,"Borderline: score 659, EMI ratio 9%"
+APP0572,71200.0,55583.0,661.0,True,True,True,True,0,0.781,AUTO_REJECT,BR-04,Score 661 / EMI ratio 78% outside limits
+APP0573,81200.0,3757.0,,True,True,True,True,0,0.046,MANUAL_REVIEW,BR-05,Credit score unavailable
+APP0574,51000.0,27408.0,691.0,True,True,True,True,0,0.537,AUTO_REJECT,BR-04,Score 691 / EMI ratio 54% outside limits
+APP0575,78900.0,27600.0,646.0,False,True,True,False,1,0.35,RETURNED,BR-01,Missing documents: pan
+APP0576,40900.0,6037.0,691.0,True,True,True,True,0,0.148,MANUAL_REVIEW,BR-03,"Borderline: score 691, EMI ratio 15%"
+APP0577,124800.0,11428.0,689.0,True,True,True,True,0,0.092,MANUAL_REVIEW,BR-03,"Borderline: score 689, EMI ratio 9%"
+APP0578,120500.0,45521.0,676.0,True,True,True,True,0,0.378,MANUAL_REVIEW,BR-03,"Borderline: score 676, EMI ratio 38%"
+APP0579,66100.0,12362.0,699.0,True,True,True,True,0,0.187,MANUAL_REVIEW,BR-03,"Borderline: score 699, EMI ratio 19%"
+APP0580,84600.0,24390.0,797.0,True,True,True,True,0,0.288,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0581,27900.0,8002.0,733.0,True,True,True,True,0,0.287,MANUAL_REVIEW,BR-03,"Borderline: score 733, EMI ratio 29%"
+APP0582,46000.0,997.0,881.0,True,True,True,True,0,0.022,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0583,65000.0,17442.0,731.0,True,True,True,True,0,0.268,MANUAL_REVIEW,BR-03,"Borderline: score 731, EMI ratio 27%"
+APP0584,47600.0,28606.0,701.0,True,True,True,True,0,0.601,AUTO_REJECT,BR-04,Score 701 / EMI ratio 60% outside limits
+APP0585,97300.0,6804.0,720.0,True,True,True,True,0,0.07,MANUAL_REVIEW,BR-03,"Borderline: score 720, EMI ratio 7%"
+APP0586,162600.0,15717.0,737.0,True,True,True,True,0,0.097,MANUAL_REVIEW,BR-03,"Borderline: score 737, EMI ratio 10%"
+APP0587,45700.0,32104.0,748.0,True,True,True,False,1,0.702,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0588,52300.0,15812.0,855.0,True,True,True,True,0,0.302,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0589,80400.0,3162.0,665.0,True,True,True,True,0,0.039,MANUAL_REVIEW,BR-03,"Borderline: score 665, EMI ratio 4%"
+APP0590,139300.0,8529.0,776.0,True,True,True,True,0,0.061,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0591,44800.0,8836.0,734.0,True,True,True,True,0,0.197,MANUAL_REVIEW,BR-03,"Borderline: score 734, EMI ratio 20%"
+APP0592,80800.0,8114.0,618.0,True,True,True,True,0,0.1,AUTO_REJECT,BR-04,Score 618 / EMI ratio 10% outside limits
+APP0593,151500.0,14758.0,,False,True,True,True,0,0.097,RETURNED,BR-01,Missing documents: pan
+APP0594,37800.0,7571.0,802.0,True,True,True,True,0,0.2,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0595,43800.0,13225.0,664.0,True,True,True,True,0,0.302,MANUAL_REVIEW,BR-03,"Borderline: score 664, EMI ratio 30%"
+APP0596,61700.0,6018.0,719.0,True,False,True,True,0,0.098,RETURNED,BR-01,Missing documents: aadhaar
+APP0597,59400.0,25108.0,608.0,True,True,True,True,0,0.423,AUTO_REJECT,BR-04,Score 608 / EMI ratio 42% outside limits
+APP0598,101200.0,38621.0,638.0,True,True,True,True,0,0.382,AUTO_REJECT,BR-04,Score 638 / EMI ratio 38% outside limits
+APP0599,80600.0,10302.0,788.0,True,True,True,True,0,0.128,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0600,36000.0,18879.0,690.0,True,True,True,True,0,0.524,AUTO_REJECT,BR-04,Score 690 / EMI ratio 52% outside limits
+APP0601,89900.0,26546.0,648.0,True,True,True,True,0,0.295,AUTO_REJECT,BR-04,Score 648 / EMI ratio 30% outside limits
+APP0602,58000.0,6517.0,735.0,True,True,True,True,0,0.112,MANUAL_REVIEW,BR-03,"Borderline: score 735, EMI ratio 11%"
+APP0603,121800.0,26737.0,686.0,True,True,True,True,0,0.22,MANUAL_REVIEW,BR-03,"Borderline: score 686, EMI ratio 22%"
+APP0604,56900.0,3546.0,,True,True,True,True,0,0.062,MANUAL_REVIEW,BR-05,Credit score unavailable
+APP0605,56700.0,8644.0,768.0,True,True,True,True,0,0.152,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0606,90800.0,22281.0,644.0,True,True,True,True,0,0.245,AUTO_REJECT,BR-04,Score 644 / EMI ratio 25% outside limits
+APP0607,99200.0,3322.0,661.0,True,True,False,True,0,0.033,RETURNED,BR-01,Missing documents: salary_slip
+APP0608,87500.0,9839.0,730.0,True,True,True,True,0,0.112,MANUAL_REVIEW,BR-03,"Borderline: score 730, EMI ratio 11%"
+APP0609,37300.0,3833.0,783.0,True,True,True,True,0,0.103,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0610,90700.0,14567.0,800.0,True,True,True,True,0,0.161,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0611,48400.0,14615.0,677.0,True,True,True,True,0,0.302,MANUAL_REVIEW,BR-03,"Borderline: score 677, EMI ratio 30%"
+APP0612,80300.0,20029.0,781.0,True,True,True,False,1,0.249,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0613,41400.0,11692.0,669.0,True,True,False,True,0,0.282,RETURNED,BR-01,Missing documents: salary_slip
+APP0614,87400.0,52612.0,839.0,True,True,True,True,0,0.602,AUTO_REJECT,BR-04,Score 839 / EMI ratio 60% outside limits
+APP0615,53000.0,15685.0,646.0,False,True,True,True,0,0.296,RETURNED,BR-01,Missing documents: pan
+APP0616,43800.0,4696.0,806.0,True,True,True,True,0,0.107,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0617,97300.0,3852.0,677.0,True,True,True,True,0,0.04,MANUAL_REVIEW,BR-03,"Borderline: score 677, EMI ratio 4%"
+APP0618,80600.0,9104.0,851.0,True,False,True,True,0,0.113,RETURNED,BR-01,Missing documents: aadhaar
+APP0619,57200.0,11883.0,758.0,True,True,True,True,0,0.208,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0620,130700.0,13632.0,654.0,False,True,True,True,0,0.104,RETURNED,BR-01,Missing documents: pan
+APP0621,61300.0,25971.0,686.0,True,True,True,False,0,0.424,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0622,74100.0,16675.0,771.0,True,True,True,True,0,0.225,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0623,81400.0,9890.0,788.0,True,True,True,True,0,0.121,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0624,57100.0,5175.0,715.0,False,True,True,True,0,0.091,RETURNED,BR-01,Missing documents: pan
+APP0625,88300.0,1653.0,723.0,True,True,True,True,0,0.019,MANUAL_REVIEW,BR-03,"Borderline: score 723, EMI ratio 2%"
+APP0626,59100.0,2664.0,769.0,True,True,True,True,0,0.045,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0627,62000.0,38525.0,729.0,True,True,True,True,0,0.621,AUTO_REJECT,BR-04,Score 729 / EMI ratio 62% outside limits
+APP0628,126100.0,46096.0,636.0,True,True,True,True,0,0.366,AUTO_REJECT,BR-04,Score 636 / EMI ratio 37% outside limits
+APP0629,48200.0,7954.0,667.0,True,True,True,True,0,0.165,MANUAL_REVIEW,BR-03,"Borderline: score 667, EMI ratio 17%"
+APP0630,27900.0,53187.0,735.0,True,True,True,True,0,1.906,AUTO_REJECT,BR-04,Score 735 / EMI ratio 191% outside limits
+APP0631,139300.0,9928.0,799.0,True,True,True,True,0,0.071,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0632,202800.0,49546.0,825.0,True,True,True,True,0,0.244,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0633,62200.0,5590.0,771.0,True,True,True,True,0,0.09,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0634,33700.0,1495.0,739.0,True,True,True,True,0,0.044,MANUAL_REVIEW,BR-03,"Borderline: score 739, EMI ratio 4%"
+APP0635,64600.0,12626.0,769.0,True,True,True,True,0,0.195,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0636,65200.0,10446.0,677.0,True,True,True,True,0,0.16,MANUAL_REVIEW,BR-03,"Borderline: score 677, EMI ratio 16%"
+APP0637,67800.0,12458.0,710.0,True,True,True,True,0,0.184,MANUAL_REVIEW,BR-03,"Borderline: score 710, EMI ratio 18%"
+APP0638,46800.0,14950.0,666.0,True,True,True,False,2,0.319,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0639,92200.0,2899.0,639.0,True,True,True,True,0,0.031,AUTO_REJECT,BR-04,Score 639 / EMI ratio 3% outside limits
+APP0640,90200.0,15301.0,742.0,True,True,False,True,0,0.17,RETURNED,BR-01,Missing documents: salary_slip
+APP0641,40200.0,27121.0,732.0,True,True,True,True,0,0.675,AUTO_REJECT,BR-04,Score 732 / EMI ratio 67% outside limits
+APP0642,96700.0,10805.0,765.0,True,True,True,True,0,0.112,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0643,166200.0,5616.0,755.0,False,True,True,True,0,0.034,RETURNED,BR-01,Missing documents: pan
+APP0644,78300.0,16994.0,736.0,True,True,True,True,0,0.217,MANUAL_REVIEW,BR-03,"Borderline: score 736, EMI ratio 22%"
+APP0645,63900.0,32583.0,756.0,True,True,False,True,0,0.51,RETURNED,BR-01,Missing documents: salary_slip
+APP0646,69100.0,14694.0,717.0,True,False,True,True,0,0.213,RETURNED,BR-01,Missing documents: aadhaar
+APP0647,93500.0,9602.0,747.0,True,True,True,True,0,0.103,MANUAL_REVIEW,BR-03,"Borderline: score 747, EMI ratio 10%"
+APP0648,36600.0,8855.0,673.0,True,False,True,True,0,0.242,RETURNED,BR-01,Missing documents: aadhaar
+APP0649,78100.0,6644.0,744.0,True,True,True,True,0,0.085,MANUAL_REVIEW,BR-03,"Borderline: score 744, EMI ratio 9%"
+APP0650,62600.0,11021.0,763.0,True,True,True,True,0,0.176,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0651,153100.0,5782.0,676.0,True,True,True,True,0,0.038,MANUAL_REVIEW,BR-03,"Borderline: score 676, EMI ratio 4%"
+APP0652,68200.0,6267.0,723.0,True,True,True,True,0,0.092,MANUAL_REVIEW,BR-03,"Borderline: score 723, EMI ratio 9%"
+APP0653,142500.0,6287.0,679.0,True,True,True,False,2,0.044,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0654,47000.0,35458.0,686.0,True,True,True,True,0,0.754,AUTO_REJECT,BR-04,Score 686 / EMI ratio 75% outside limits
+APP0655,92500.0,12794.0,647.0,False,True,True,True,0,0.138,RETURNED,BR-01,Missing documents: pan
+APP0656,83100.0,15429.0,802.0,True,True,True,True,0,0.186,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0657,51700.0,52900.0,789.0,True,True,True,True,0,1.023,AUTO_REJECT,BR-04,Score 789 / EMI ratio 102% outside limits
+APP0658,78500.0,3565.0,755.0,True,True,True,True,0,0.045,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0659,118800.0,43604.0,,True,True,True,True,0,0.367,MANUAL_REVIEW,BR-05,Credit score unavailable
+APP0660,64200.0,10134.0,708.0,True,True,True,True,0,0.158,MANUAL_REVIEW,BR-03,"Borderline: score 708, EMI ratio 16%"
+APP0661,37200.0,6478.0,900.0,True,True,True,True,0,0.174,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0662,72600.0,3690.0,705.0,True,True,True,True,0,0.051,MANUAL_REVIEW,BR-03,"Borderline: score 705, EMI ratio 5%"
+APP0663,51000.0,11668.0,737.0,True,True,True,True,0,0.229,MANUAL_REVIEW,BR-03,"Borderline: score 737, EMI ratio 23%"
+APP0664,63800.0,27696.0,694.0,True,True,False,True,0,0.434,RETURNED,BR-01,Missing documents: salary_slip
+APP0665,70800.0,8568.0,744.0,False,True,True,True,0,0.121,RETURNED,BR-01,Missing documents: pan
+APP0666,37000.0,17729.0,774.0,True,True,True,True,0,0.479,MANUAL_REVIEW,BR-03,"Borderline: score 774, EMI ratio 48%"
+APP0667,38300.0,56637.0,713.0,True,True,True,True,0,1.479,AUTO_REJECT,BR-04,Score 713 / EMI ratio 148% outside limits
+APP0668,88700.0,11692.0,835.0,True,True,True,True,0,0.132,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0669,59300.0,19215.0,736.0,True,True,True,True,0,0.324,MANUAL_REVIEW,BR-03,"Borderline: score 736, EMI ratio 32%"
+APP0670,26200.0,9935.0,738.0,True,True,True,True,0,0.379,MANUAL_REVIEW,BR-03,"Borderline: score 738, EMI ratio 38%"
+APP0671,100100.0,28415.0,661.0,True,True,True,True,0,0.284,MANUAL_REVIEW,BR-03,"Borderline: score 661, EMI ratio 28%"
+APP0672,81500.0,3258.0,747.0,True,True,True,True,0,0.04,MANUAL_REVIEW,BR-03,"Borderline: score 747, EMI ratio 4%"
+APP0673,55000.0,8849.0,711.0,True,True,True,True,0,0.161,MANUAL_REVIEW,BR-03,"Borderline: score 711, EMI ratio 16%"
+APP0674,43200.0,25492.0,680.0,True,True,True,True,0,0.59,AUTO_REJECT,BR-04,Score 680 / EMI ratio 59% outside limits
+APP0675,102200.0,4935.0,670.0,True,True,True,True,0,0.048,MANUAL_REVIEW,BR-03,"Borderline: score 670, EMI ratio 5%"
+APP0676,84100.0,23144.0,894.0,True,True,True,True,0,0.275,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0677,189700.0,6253.0,703.0,True,True,True,True,0,0.033,MANUAL_REVIEW,BR-03,"Borderline: score 703, EMI ratio 3%"
+APP0678,86500.0,28223.0,625.0,True,True,True,False,2,0.326,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0679,85400.0,10273.0,675.0,True,True,True,True,0,0.12,MANUAL_REVIEW,BR-03,"Borderline: score 675, EMI ratio 12%"
+APP0680,68400.0,10350.0,717.0,True,False,True,True,0,0.151,RETURNED,BR-01,Missing documents: aadhaar
+APP0681,101400.0,45425.0,756.0,True,True,True,True,0,0.448,MANUAL_REVIEW,BR-03,"Borderline: score 756, EMI ratio 45%"
+APP0682,93900.0,22521.0,756.0,True,True,True,True,0,0.24,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0683,120700.0,7341.0,764.0,True,True,True,True,0,0.061,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0684,59400.0,7897.0,678.0,True,True,True,True,0,0.133,MANUAL_REVIEW,BR-03,"Borderline: score 678, EMI ratio 13%"
+APP0685,61400.0,24246.0,,True,True,True,False,2,0.395,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0686,60400.0,1509.0,663.0,True,True,True,True,0,0.025,MANUAL_REVIEW,BR-03,"Borderline: score 663, EMI ratio 2%"
+APP0687,100300.0,5462.0,680.0,True,True,True,False,2,0.054,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0688,133200.0,42358.0,660.0,True,True,True,True,0,0.318,MANUAL_REVIEW,BR-03,"Borderline: score 660, EMI ratio 32%"
+APP0689,60900.0,11500.0,643.0,True,True,True,True,0,0.189,AUTO_REJECT,BR-04,Score 643 / EMI ratio 19% outside limits
+APP0690,61700.0,7739.0,789.0,True,True,True,True,0,0.125,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0691,82900.0,1533.0,765.0,True,True,True,True,0,0.018,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0692,66300.0,4638.0,783.0,True,True,True,True,0,0.07,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0693,107000.0,50408.0,723.0,True,True,False,True,0,0.471,RETURNED,BR-01,Missing documents: salary_slip
+APP0694,29700.0,3210.0,770.0,True,True,True,True,0,0.108,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0695,52500.0,8561.0,606.0,True,True,True,True,0,0.163,AUTO_REJECT,BR-04,Score 606 / EMI ratio 16% outside limits
+APP0696,53500.0,54625.0,776.0,True,True,True,True,0,1.021,AUTO_REJECT,BR-04,Score 776 / EMI ratio 102% outside limits
+APP0697,28900.0,2492.0,732.0,True,True,True,True,0,0.086,MANUAL_REVIEW,BR-03,"Borderline: score 732, EMI ratio 9%"
+APP0698,49700.0,44275.0,761.0,True,True,True,True,0,0.891,AUTO_REJECT,BR-04,Score 761 / EMI ratio 89% outside limits
+APP0699,50700.0,18400.0,745.0,True,True,True,False,1,0.363,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0700,67500.0,50504.0,656.0,True,True,True,True,0,0.748,AUTO_REJECT,BR-04,Score 656 / EMI ratio 75% outside limits
+APP0701,114100.0,22042.0,623.0,True,True,False,True,0,0.193,RETURNED,BR-01,Missing documents: salary_slip
+APP0702,66300.0,12866.0,674.0,True,True,True,True,0,0.194,MANUAL_REVIEW,BR-03,"Borderline: score 674, EMI ratio 19%"
+APP0703,48400.0,16196.0,757.0,True,True,True,True,0,0.335,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0704,71500.0,6555.0,765.0,True,True,True,True,0,0.092,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0705,111300.0,22952.0,631.0,True,True,True,True,0,0.206,AUTO_REJECT,BR-04,Score 631 / EMI ratio 21% outside limits
+APP0706,49500.0,17729.0,656.0,True,False,True,True,0,0.358,RETURNED,BR-01,Missing documents: aadhaar
+APP0707,50800.0,8481.0,673.0,True,False,True,True,0,0.167,RETURNED,BR-01,Missing documents: aadhaar
+APP0708,91400.0,1557.0,697.0,True,True,True,True,0,0.017,MANUAL_REVIEW,BR-03,"Borderline: score 697, EMI ratio 2%"
+APP0709,66900.0,55296.0,631.0,True,True,True,True,0,0.827,AUTO_REJECT,BR-04,Score 631 / EMI ratio 83% outside limits
+APP0710,94700.0,42262.0,628.0,True,True,False,True,0,0.446,RETURNED,BR-01,Missing documents: salary_slip
+APP0711,72700.0,7667.0,667.0,True,False,True,True,0,0.105,RETURNED,BR-01,Missing documents: aadhaar
+APP0712,96800.0,14662.0,726.0,True,False,True,True,0,0.151,RETURNED,BR-01,Missing documents: aadhaar
+APP0713,48300.0,16388.0,643.0,True,True,True,True,0,0.339,AUTO_REJECT,BR-04,Score 643 / EMI ratio 34% outside limits
+APP0714,72800.0,7475.0,712.0,True,True,True,True,0,0.103,MANUAL_REVIEW,BR-03,"Borderline: score 712, EMI ratio 10%"
+APP0715,67200.0,5692.0,789.0,True,True,True,True,0,0.085,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0716,45000.0,19262.0,635.0,True,True,True,True,0,0.428,AUTO_REJECT,BR-04,Score 635 / EMI ratio 43% outside limits
+APP0717,39100.0,5143.0,707.0,True,True,True,True,0,0.132,MANUAL_REVIEW,BR-03,"Borderline: score 707, EMI ratio 13%"
+APP0718,96200.0,51558.0,,True,True,True,True,0,0.536,MANUAL_REVIEW,BR-05,Credit score unavailable
+APP0719,63600.0,23767.0,693.0,True,True,True,True,0,0.374,MANUAL_REVIEW,BR-03,"Borderline: score 693, EMI ratio 37%"
+APP0720,48600.0,7731.0,683.0,True,True,True,True,0,0.159,MANUAL_REVIEW,BR-03,"Borderline: score 683, EMI ratio 16%"
+APP0721,70400.0,35267.0,796.0,True,True,True,True,0,0.501,AUTO_REJECT,BR-04,Score 796 / EMI ratio 50% outside limits
+APP0722,114800.0,2453.0,700.0,True,True,True,True,0,0.021,MANUAL_REVIEW,BR-03,"Borderline: score 700, EMI ratio 2%"
+APP0723,29400.0,11212.0,792.0,True,True,True,True,0,0.381,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0724,40200.0,26210.0,748.0,True,True,True,True,0,0.652,AUTO_REJECT,BR-04,Score 748 / EMI ratio 65% outside limits
+APP0725,50600.0,26690.0,698.0,True,True,True,True,0,0.527,AUTO_REJECT,BR-04,Score 698 / EMI ratio 53% outside limits
+APP0726,131200.0,22329.0,751.0,True,True,True,True,0,0.17,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0727,81900.0,4568.0,741.0,True,True,True,True,0,0.056,MANUAL_REVIEW,BR-03,"Borderline: score 741, EMI ratio 6%"
+APP0728,99400.0,15908.0,786.0,True,True,True,True,0,0.16,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0729,46300.0,4792.0,684.0,True,True,True,True,0,0.103,MANUAL_REVIEW,BR-03,"Borderline: score 684, EMI ratio 10%"
+APP0730,46700.0,3706.0,723.0,True,True,True,True,0,0.079,MANUAL_REVIEW,BR-03,"Borderline: score 723, EMI ratio 8%"
+APP0731,87500.0,2132.0,716.0,True,True,True,False,2,0.024,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0732,74900.0,18975.0,766.0,True,True,True,True,0,0.253,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0733,91100.0,4360.0,653.0,True,True,True,True,0,0.048,MANUAL_REVIEW,BR-03,"Borderline: score 653, EMI ratio 5%"
+APP0734,67800.0,2947.0,786.0,True,True,True,True,0,0.043,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0735,81700.0,12099.0,750.0,True,True,True,True,0,0.148,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0736,77900.0,8841.0,634.0,True,True,True,False,2,0.113,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0737,99800.0,15206.0,799.0,True,True,True,True,0,0.152,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0738,101000.0,7609.0,865.0,True,True,True,True,0,0.075,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0739,38300.0,25635.0,785.0,True,True,True,True,0,0.669,AUTO_REJECT,BR-04,Score 785 / EMI ratio 67% outside limits
+APP0740,29800.0,7686.0,813.0,True,True,True,True,0,0.258,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0741,109200.0,16148.0,726.0,True,True,True,True,0,0.148,MANUAL_REVIEW,BR-03,"Borderline: score 726, EMI ratio 15%"
+APP0742,117600.0,21179.0,,False,True,True,True,0,0.18,RETURNED,BR-01,Missing documents: pan
+APP0743,48600.0,9456.0,600.0,True,True,True,True,0,0.195,AUTO_REJECT,BR-04,Score 600 / EMI ratio 19% outside limits
+APP0744,34800.0,7667.0,737.0,True,True,True,True,0,0.22,MANUAL_REVIEW,BR-03,"Borderline: score 737, EMI ratio 22%"
+APP0745,76100.0,7355.0,682.0,True,True,True,True,0,0.097,MANUAL_REVIEW,BR-03,"Borderline: score 682, EMI ratio 10%"
+APP0746,106100.0,6852.0,661.0,True,True,True,True,0,0.065,MANUAL_REVIEW,BR-03,"Borderline: score 661, EMI ratio 6%"
+APP0747,150100.0,9353.0,716.0,True,True,True,True,0,0.062,MANUAL_REVIEW,BR-03,"Borderline: score 716, EMI ratio 6%"
+APP0748,89900.0,9248.0,760.0,True,True,True,True,0,0.103,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0749,63000.0,4281.0,626.0,True,True,True,True,0,0.068,AUTO_REJECT,BR-04,Score 626 / EMI ratio 7% outside limits
+APP0750,51200.0,3546.0,691.0,True,True,True,False,0,0.069,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0751,73500.0,16388.0,818.0,True,True,True,True,0,0.223,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0752,64900.0,5558.0,,True,True,True,True,0,0.086,MANUAL_REVIEW,BR-05,Credit score unavailable
+APP0753,48700.0,8184.0,777.0,True,True,True,True,0,0.168,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0754,166000.0,9986.0,688.0,True,True,True,True,0,0.06,MANUAL_REVIEW,BR-03,"Borderline: score 688, EMI ratio 6%"
+APP0755,149400.0,2971.0,755.0,True,True,True,True,0,0.02,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0756,115200.0,15046.0,791.0,True,True,True,True,0,0.131,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0757,50600.0,20988.0,768.0,True,True,True,True,0,0.415,MANUAL_REVIEW,BR-03,"Borderline: score 768, EMI ratio 41%"
+APP0758,103000.0,5399.0,779.0,True,True,False,False,0,0.052,RETURNED,BR-01,Missing documents: salary_slip
+APP0759,94500.0,8222.0,645.0,True,True,False,True,0,0.087,RETURNED,BR-01,Missing documents: salary_slip
+APP0760,87300.0,17569.0,792.0,True,True,True,False,0,0.201,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0761,120600.0,10158.0,665.0,True,True,True,True,0,0.084,MANUAL_REVIEW,BR-03,"Borderline: score 665, EMI ratio 8%"
+APP0762,94300.0,34788.0,737.0,True,True,True,True,0,0.369,MANUAL_REVIEW,BR-03,"Borderline: score 737, EMI ratio 37%"
+APP0763,98300.0,10015.0,737.0,True,True,True,True,0,0.102,MANUAL_REVIEW,BR-03,"Borderline: score 737, EMI ratio 10%"
+APP0764,94300.0,17010.0,752.0,True,True,True,True,0,0.18,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0765,83800.0,7513.0,742.0,True,True,True,True,0,0.09,MANUAL_REVIEW,BR-03,"Borderline: score 742, EMI ratio 9%"
+APP0766,35800.0,12331.0,665.0,True,True,True,True,0,0.344,MANUAL_REVIEW,BR-03,"Borderline: score 665, EMI ratio 34%"
+APP0767,75600.0,37662.0,632.0,True,True,True,True,0,0.498,AUTO_REJECT,BR-04,Score 632 / EMI ratio 50% outside limits
+APP0768,58500.0,11883.0,777.0,True,True,True,True,0,0.203,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0769,43800.0,8261.0,732.0,True,True,True,True,0,0.189,MANUAL_REVIEW,BR-03,"Borderline: score 732, EMI ratio 19%"
+APP0770,143300.0,8069.0,795.0,True,True,True,False,2,0.056,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0771,146000.0,10182.0,717.0,True,True,True,True,0,0.07,MANUAL_REVIEW,BR-03,"Borderline: score 717, EMI ratio 7%"
+APP0772,126000.0,8721.0,629.0,True,True,True,True,0,0.069,AUTO_REJECT,BR-04,Score 629 / EMI ratio 7% outside limits
+APP0773,81000.0,28367.0,783.0,True,True,True,True,0,0.35,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0774,125500.0,26354.0,,True,True,True,True,0,0.21,MANUAL_REVIEW,BR-05,Credit score unavailable
+APP0775,73500.0,2348.0,,True,True,True,True,0,0.032,MANUAL_REVIEW,BR-05,Credit score unavailable
+APP0776,79300.0,4121.0,678.0,True,True,True,True,0,0.052,MANUAL_REVIEW,BR-03,"Borderline: score 678, EMI ratio 5%"
+APP0777,47200.0,5616.0,827.0,True,True,True,True,0,0.119,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0778,85700.0,43988.0,663.0,True,True,True,True,0,0.513,AUTO_REJECT,BR-04,Score 663 / EMI ratio 51% outside limits
+APP0779,74900.0,17250.0,698.0,True,True,True,True,0,0.23,MANUAL_REVIEW,BR-03,"Borderline: score 698, EMI ratio 23%"
+APP0780,43400.0,9698.0,727.0,True,True,True,True,0,0.223,MANUAL_REVIEW,BR-03,"Borderline: score 727, EMI ratio 22%"
+APP0781,71600.0,6708.0,649.0,True,True,True,True,0,0.094,AUTO_REJECT,BR-04,Score 649 / EMI ratio 9% outside limits
+APP0782,70800.0,11212.0,741.0,True,True,True,True,0,0.158,MANUAL_REVIEW,BR-03,"Borderline: score 741, EMI ratio 16%"
+APP0783,150100.0,29708.0,825.0,True,True,True,True,0,0.198,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0784,104600.0,31146.0,688.0,True,True,True,True,0,0.298,MANUAL_REVIEW,BR-03,"Borderline: score 688, EMI ratio 30%"
+APP0785,73500.0,37471.0,746.0,True,True,True,True,0,0.51,AUTO_REJECT,BR-04,Score 746 / EMI ratio 51% outside limits
+APP0786,80800.0,13417.0,541.0,True,True,True,False,1,0.166,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0787,74400.0,6133.0,717.0,True,True,True,False,0,0.082,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0788,67400.0,8170.0,700.0,True,True,False,True,0,0.121,RETURNED,BR-01,Missing documents: salary_slip
+APP0789,47400.0,18256.0,667.0,True,True,True,True,0,0.385,MANUAL_REVIEW,BR-03,"Borderline: score 667, EMI ratio 39%"
+APP0790,68800.0,10925.0,790.0,True,True,True,True,0,0.159,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0791,54300.0,8625.0,699.0,True,True,True,True,0,0.159,MANUAL_REVIEW,BR-03,"Borderline: score 699, EMI ratio 16%"
+APP0792,44400.0,6402.0,708.0,True,True,True,True,0,0.144,MANUAL_REVIEW,BR-03,"Borderline: score 708, EMI ratio 14%"
+APP0793,89700.0,6037.0,695.0,True,True,True,True,0,0.067,MANUAL_REVIEW,BR-03,"Borderline: score 695, EMI ratio 7%"
+APP0794,85500.0,13345.0,595.0,True,True,True,True,0,0.156,AUTO_REJECT,BR-04,Score 595 / EMI ratio 16% outside limits
+APP0795,35800.0,6152.0,646.0,True,True,True,True,0,0.172,AUTO_REJECT,BR-04,Score 646 / EMI ratio 17% outside limits
+APP0796,69600.0,9839.0,782.0,True,True,True,True,0,0.141,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0797,108900.0,18496.0,583.0,True,True,True,True,0,0.17,AUTO_REJECT,BR-04,Score 583 / EMI ratio 17% outside limits
+APP0798,111700.0,14279.0,670.0,True,True,True,True,0,0.128,MANUAL_REVIEW,BR-03,"Borderline: score 670, EMI ratio 13%"
+APP0799,110200.0,2856.0,694.0,True,True,True,True,0,0.026,MANUAL_REVIEW,BR-03,"Borderline: score 694, EMI ratio 3%"
+APP0800,74300.0,4049.0,833.0,True,True,True,True,0,0.054,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0801,52200.0,9775.0,770.0,True,True,True,True,0,0.187,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0802,47400.0,958.0,684.0,True,True,True,True,0,0.02,MANUAL_REVIEW,BR-03,"Borderline: score 684, EMI ratio 2%"
+APP0803,83900.0,27600.0,805.0,True,True,True,True,0,0.329,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0804,85100.0,15110.0,672.0,True,True,True,True,0,0.178,MANUAL_REVIEW,BR-03,"Borderline: score 672, EMI ratio 18%"
+APP0805,122400.0,43412.0,786.0,True,True,True,True,0,0.355,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0806,113500.0,1629.0,632.0,True,True,True,True,0,0.014,AUTO_REJECT,BR-04,Score 632 / EMI ratio 1% outside limits
+APP0807,69400.0,11596.0,790.0,True,True,True,True,0,0.167,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0808,44500.0,4312.0,694.0,True,True,True,True,0,0.097,MANUAL_REVIEW,BR-03,"Borderline: score 694, EMI ratio 10%"
+APP0809,64400.0,13608.0,653.0,True,True,True,True,0,0.211,MANUAL_REVIEW,BR-03,"Borderline: score 653, EMI ratio 21%"
+APP0810,79800.0,3402.0,706.0,False,True,True,True,0,0.043,RETURNED,BR-01,Missing documents: pan
+APP0811,67500.0,18927.0,738.0,True,True,True,True,0,0.28,MANUAL_REVIEW,BR-03,"Borderline: score 738, EMI ratio 28%"
+APP0812,58000.0,4389.0,688.0,True,True,True,True,0,0.076,MANUAL_REVIEW,BR-03,"Borderline: score 688, EMI ratio 8%"
+APP0813,80900.0,12874.0,756.0,True,True,True,True,0,0.159,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0814,59800.0,26546.0,682.0,True,True,True,True,0,0.444,MANUAL_REVIEW,BR-03,"Borderline: score 682, EMI ratio 44%"
+APP0815,56900.0,44850.0,760.0,True,True,True,True,0,0.788,AUTO_REJECT,BR-04,Score 760 / EMI ratio 79% outside limits
+APP0816,82800.0,8481.0,749.0,True,True,True,True,0,0.102,MANUAL_REVIEW,BR-03,"Borderline: score 749, EMI ratio 10%"
+APP0817,62300.0,13129.0,,True,True,True,True,0,0.211,MANUAL_REVIEW,BR-05,Credit score unavailable
+APP0818,80600.0,10382.0,691.0,True,True,True,True,0,0.129,MANUAL_REVIEW,BR-03,"Borderline: score 691, EMI ratio 13%"
+APP0819,81600.0,22329.0,730.0,True,True,True,True,0,0.274,MANUAL_REVIEW,BR-03,"Borderline: score 730, EMI ratio 27%"
+APP0820,46400.0,16515.0,756.0,True,True,True,True,0,0.356,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0821,60300.0,11481.0,854.0,True,True,True,True,0,0.19,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0822,130000.0,5526.0,781.0,True,True,True,True,0,0.043,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0823,45900.0,19933.0,783.0,True,True,True,True,0,0.434,MANUAL_REVIEW,BR-03,"Borderline: score 783, EMI ratio 43%"
+APP0824,31400.0,18017.0,900.0,True,True,True,True,0,0.574,AUTO_REJECT,BR-04,Score 900 / EMI ratio 57% outside limits
+APP0825,34700.0,6229.0,754.0,True,True,True,True,0,0.18,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0826,74000.0,11819.0,752.0,True,True,False,True,0,0.16,RETURNED,BR-01,Missing documents: salary_slip
+APP0827,74000.0,11423.0,766.0,True,True,True,True,0,0.154,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0828,69800.0,19007.0,654.0,True,True,True,True,0,0.272,MANUAL_REVIEW,BR-03,"Borderline: score 654, EMI ratio 27%"
+APP0829,118900.0,8146.0,691.0,True,True,False,True,0,0.069,RETURNED,BR-01,Missing documents: salary_slip
+APP0830,25100.0,12810.0,687.0,True,True,True,True,0,0.51,AUTO_REJECT,BR-04,Score 687 / EMI ratio 51% outside limits
+APP0831,85700.0,25060.0,762.0,True,True,True,True,0,0.292,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0832,136600.0,13489.0,709.0,True,True,True,False,2,0.099,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0833,46600.0,3881.0,729.0,True,True,True,True,0,0.083,MANUAL_REVIEW,BR-03,"Borderline: score 729, EMI ratio 8%"
+APP0834,62800.0,8170.0,791.0,True,True,True,True,0,0.13,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0835,54100.0,48683.0,776.0,True,True,True,True,0,0.9,AUTO_REJECT,BR-04,Score 776 / EMI ratio 90% outside limits
+APP0836,51100.0,5199.0,709.0,True,True,True,True,0,0.102,MANUAL_REVIEW,BR-03,"Borderline: score 709, EMI ratio 10%"
+APP0837,64200.0,13992.0,676.0,True,True,True,True,0,0.218,MANUAL_REVIEW,BR-03,"Borderline: score 676, EMI ratio 22%"
+APP0838,129400.0,14183.0,794.0,True,True,True,True,0,0.11,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0839,152500.0,14183.0,770.0,True,True,True,True,0,0.093,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0840,63900.0,13129.0,,True,False,True,True,0,0.205,RETURNED,BR-01,Missing documents: aadhaar
+APP0841,156700.0,9372.0,700.0,True,True,True,True,0,0.06,MANUAL_REVIEW,BR-03,"Borderline: score 700, EMI ratio 6%"
+APP0842,74200.0,6325.0,731.0,True,True,True,True,0,0.085,MANUAL_REVIEW,BR-03,"Borderline: score 731, EMI ratio 9%"
+APP0843,147500.0,21658.0,771.0,True,True,False,True,0,0.147,RETURNED,BR-01,Missing documents: salary_slip
+APP0844,70500.0,8409.0,779.0,True,True,True,True,0,0.119,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0845,77100.0,8577.0,738.0,True,True,True,True,0,0.111,MANUAL_REVIEW,BR-03,"Borderline: score 738, EMI ratio 11%"
+APP0846,84600.0,31433.0,758.0,True,True,True,True,0,0.372,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0847,260800.0,38333.0,724.0,True,True,True,True,0,0.147,MANUAL_REVIEW,BR-03,"Borderline: score 724, EMI ratio 15%"
+APP0848,102800.0,13177.0,676.0,True,False,True,True,0,0.128,RETURNED,BR-01,Missing documents: aadhaar
+APP0849,55100.0,8855.0,703.0,True,True,True,True,0,0.161,MANUAL_REVIEW,BR-03,"Borderline: score 703, EMI ratio 16%"
+APP0850,107800.0,7443.0,721.0,True,True,True,True,0,0.069,MANUAL_REVIEW,BR-03,"Borderline: score 721, EMI ratio 7%"
+APP0851,63300.0,4447.0,718.0,True,True,True,True,0,0.07,MANUAL_REVIEW,BR-03,"Borderline: score 718, EMI ratio 7%"
+APP0852,60100.0,2300.0,597.0,True,True,True,False,0,0.038,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0853,105200.0,4919.0,694.0,True,True,True,True,0,0.047,MANUAL_REVIEW,BR-03,"Borderline: score 694, EMI ratio 5%"
+APP0854,74000.0,12410.0,724.0,False,True,True,True,0,0.168,RETURNED,BR-01,Missing documents: pan
+APP0855,81800.0,14135.0,,True,True,True,True,0,0.173,MANUAL_REVIEW,BR-05,Credit score unavailable
+APP0856,73500.0,16771.0,,True,True,True,True,0,0.228,MANUAL_REVIEW,BR-05,Credit score unavailable
+APP0857,83700.0,22425.0,752.0,True,True,True,False,2,0.268,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0858,86700.0,11340.0,650.0,True,True,True,True,0,0.131,MANUAL_REVIEW,BR-03,"Borderline: score 650, EMI ratio 13%"
+APP0859,33700.0,5942.0,614.0,True,True,True,True,0,0.176,AUTO_REJECT,BR-04,Score 614 / EMI ratio 18% outside limits
+APP0860,95500.0,10733.0,697.0,True,True,True,True,0,0.112,MANUAL_REVIEW,BR-03,"Borderline: score 697, EMI ratio 11%"
+APP0861,49400.0,14087.0,770.0,False,True,True,True,0,0.285,RETURNED,BR-01,Missing documents: pan
+APP0862,41100.0,9847.0,830.0,True,True,True,True,0,0.24,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0863,71400.0,3852.0,771.0,True,False,True,True,0,0.054,RETURNED,BR-01,Missing documents: aadhaar
+APP0864,75600.0,1648.0,625.0,True,True,True,True,0,0.022,AUTO_REJECT,BR-04,Score 625 / EMI ratio 2% outside limits
+APP0865,55400.0,3833.0,705.0,True,True,True,True,0,0.069,MANUAL_REVIEW,BR-03,"Borderline: score 705, EMI ratio 7%"
+APP0866,102000.0,11819.0,737.0,True,True,True,True,0,0.116,MANUAL_REVIEW,BR-03,"Borderline: score 737, EMI ratio 12%"
+APP0867,42800.0,1188.0,,True,True,True,True,0,0.028,MANUAL_REVIEW,BR-05,Credit score unavailable
+APP0868,62100.0,16515.0,755.0,True,True,True,False,2,0.266,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0869,57900.0,6469.0,660.0,True,True,True,False,1,0.112,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0870,71800.0,18400.0,724.0,True,True,True,True,0,0.256,MANUAL_REVIEW,BR-03,"Borderline: score 724, EMI ratio 26%"
+APP0871,81800.0,7068.0,747.0,True,True,True,True,0,0.086,MANUAL_REVIEW,BR-03,"Borderline: score 747, EMI ratio 9%"
+APP0872,48900.0,9392.0,774.0,True,True,False,True,0,0.192,RETURNED,BR-01,Missing documents: salary_slip
+APP0873,97700.0,1706.0,668.0,True,True,True,True,0,0.017,MANUAL_REVIEW,BR-03,"Borderline: score 668, EMI ratio 2%"
+APP0874,75000.0,9430.0,698.0,True,True,True,True,0,0.126,MANUAL_REVIEW,BR-03,"Borderline: score 698, EMI ratio 13%"
+APP0875,34300.0,51846.0,544.0,True,True,True,True,0,1.512,AUTO_REJECT,BR-04,Score 544 / EMI ratio 151% outside limits
+APP0876,33400.0,1342.0,680.0,True,True,True,True,0,0.04,MANUAL_REVIEW,BR-03,"Borderline: score 680, EMI ratio 4%"
+APP0877,72800.0,7092.0,686.0,True,True,True,True,0,0.097,MANUAL_REVIEW,BR-03,"Borderline: score 686, EMI ratio 10%"
+APP0878,66900.0,17474.0,654.0,True,True,True,True,0,0.261,MANUAL_REVIEW,BR-03,"Borderline: score 654, EMI ratio 26%"
+APP0879,70200.0,16867.0,731.0,True,True,True,True,0,0.24,MANUAL_REVIEW,BR-03,"Borderline: score 731, EMI ratio 24%"
+APP0880,72300.0,6373.0,716.0,True,True,True,True,0,0.088,MANUAL_REVIEW,BR-03,"Borderline: score 716, EMI ratio 9%"
+APP0881,80000.0,7762.0,573.0,True,True,True,True,0,0.097,AUTO_REJECT,BR-04,Score 573 / EMI ratio 10% outside limits
+APP0882,106800.0,39579.0,734.0,True,True,False,True,0,0.371,RETURNED,BR-01,Missing documents: salary_slip
+APP0883,46900.0,10757.0,660.0,True,True,True,False,2,0.229,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0884,45800.0,36417.0,752.0,True,True,True,True,0,0.795,AUTO_REJECT,BR-04,Score 752 / EMI ratio 80% outside limits
+APP0885,47200.0,27504.0,637.0,True,True,True,True,0,0.583,AUTO_REJECT,BR-04,Score 637 / EMI ratio 58% outside limits
+APP0886,82100.0,30858.0,722.0,True,True,True,True,0,0.376,MANUAL_REVIEW,BR-03,"Borderline: score 722, EMI ratio 38%"
+APP0887,120300.0,20604.0,,True,True,True,True,0,0.171,MANUAL_REVIEW,BR-05,Credit score unavailable
+APP0888,61500.0,14950.0,740.0,False,True,True,True,0,0.243,RETURNED,BR-01,Missing documents: pan
+APP0889,26900.0,4753.0,728.0,True,True,True,False,2,0.177,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0890,37000.0,3316.0,703.0,True,True,True,True,0,0.09,MANUAL_REVIEW,BR-03,"Borderline: score 703, EMI ratio 9%"
+APP0891,52400.0,3594.0,620.0,True,True,True,True,0,0.069,AUTO_REJECT,BR-04,Score 620 / EMI ratio 7% outside limits
+APP0892,58500.0,7794.0,624.0,True,True,True,True,0,0.133,AUTO_REJECT,BR-04,Score 624 / EMI ratio 13% outside limits
+APP0893,62100.0,8452.0,682.0,True,True,True,False,2,0.136,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0894,74300.0,2875.0,719.0,True,True,True,True,0,0.039,MANUAL_REVIEW,BR-03,"Borderline: score 719, EMI ratio 4%"
+APP0895,64600.0,5597.0,680.0,True,True,True,True,0,0.087,MANUAL_REVIEW,BR-03,"Borderline: score 680, EMI ratio 9%"
+APP0896,111300.0,38717.0,761.0,True,True,True,True,0,0.348,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0897,55800.0,18496.0,702.0,True,True,True,True,0,0.331,MANUAL_REVIEW,BR-03,"Borderline: score 702, EMI ratio 33%"
+APP0898,51800.0,22856.0,657.0,True,True,True,True,0,0.441,MANUAL_REVIEW,BR-03,"Borderline: score 657, EMI ratio 44%"
+APP0899,88600.0,47533.0,702.0,True,True,True,True,0,0.536,AUTO_REJECT,BR-04,Score 702 / EMI ratio 54% outside limits
+APP0900,39600.0,8452.0,735.0,True,True,False,True,0,0.213,RETURNED,BR-01,Missing documents: salary_slip
+APP0901,85500.0,2051.0,741.0,True,True,True,True,0,0.024,MANUAL_REVIEW,BR-03,"Borderline: score 741, EMI ratio 2%"
+APP0902,76200.0,14902.0,842.0,True,True,True,True,0,0.196,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0903,68900.0,7322.0,677.0,True,True,False,True,0,0.106,RETURNED,BR-01,Missing documents: salary_slip
+APP0904,138000.0,4432.0,715.0,True,True,True,True,0,0.032,MANUAL_REVIEW,BR-03,"Borderline: score 715, EMI ratio 3%"
+APP0905,57000.0,1399.0,748.0,True,True,True,True,0,0.025,MANUAL_REVIEW,BR-03,"Borderline: score 748, EMI ratio 2%"
+APP0906,166700.0,3316.0,718.0,True,True,True,True,0,0.02,MANUAL_REVIEW,BR-03,"Borderline: score 718, EMI ratio 2%"
+APP0907,66800.0,9583.0,687.0,True,True,True,True,0,0.143,MANUAL_REVIEW,BR-03,"Borderline: score 687, EMI ratio 14%"
+APP0908,43900.0,26642.0,619.0,True,True,True,True,0,0.607,AUTO_REJECT,BR-04,Score 619 / EMI ratio 61% outside limits
+APP0909,75200.0,2818.0,687.0,True,True,True,True,0,0.037,MANUAL_REVIEW,BR-03,"Borderline: score 687, EMI ratio 4%"
+APP0910,47500.0,12051.0,650.0,True,True,True,True,0,0.254,MANUAL_REVIEW,BR-03,"Borderline: score 650, EMI ratio 25%"
+APP0911,54100.0,10714.0,608.0,True,True,True,False,2,0.198,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0912,85700.0,3086.0,668.0,True,True,True,True,0,0.036,MANUAL_REVIEW,BR-03,"Borderline: score 668, EMI ratio 4%"
+APP0913,91300.0,53762.0,652.0,True,True,True,True,0,0.589,AUTO_REJECT,BR-04,Score 652 / EMI ratio 59% outside limits
+APP0914,57000.0,1917.0,758.0,True,True,True,True,0,0.034,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0915,108500.0,53571.0,759.0,True,True,True,True,0,0.494,MANUAL_REVIEW,BR-03,"Borderline: score 759, EMI ratio 49%"
+APP0916,116200.0,55008.0,661.0,True,True,True,True,0,0.473,MANUAL_REVIEW,BR-03,"Borderline: score 661, EMI ratio 47%"
+APP0917,129900.0,1092.0,703.0,True,True,True,True,0,0.008,MANUAL_REVIEW,BR-03,"Borderline: score 703, EMI ratio 1%"
+APP0918,90400.0,9008.0,599.0,False,True,True,False,2,0.1,RETURNED,BR-01,Missing documents: pan
+APP0919,126200.0,11193.0,688.0,False,True,True,True,0,0.089,RETURNED,BR-01,Missing documents: pan
+APP0920,34500.0,10503.0,746.0,True,True,True,True,0,0.304,MANUAL_REVIEW,BR-03,"Borderline: score 746, EMI ratio 30%"
+APP0921,64400.0,13992.0,774.0,True,True,True,True,0,0.217,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0922,51700.0,11276.0,674.0,True,True,True,True,0,0.218,MANUAL_REVIEW,BR-03,"Borderline: score 674, EMI ratio 22%"
+APP0923,76700.0,1782.0,788.0,True,True,True,True,0,0.023,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0924,58200.0,16515.0,621.0,True,True,True,True,0,0.284,AUTO_REJECT,BR-04,Score 621 / EMI ratio 28% outside limits
+APP0925,68400.0,9296.0,639.0,True,True,False,False,0,0.136,RETURNED,BR-01,Missing documents: salary_slip
+APP0926,155300.0,18592.0,766.0,True,False,True,True,0,0.12,RETURNED,BR-01,Missing documents: aadhaar
+APP0927,68300.0,6684.0,829.0,True,True,False,True,0,0.098,RETURNED,BR-01,Missing documents: salary_slip
+APP0928,86300.0,6996.0,752.0,True,True,True,True,0,0.081,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0929,66600.0,3210.0,717.0,True,True,True,True,0,0.048,MANUAL_REVIEW,BR-03,"Borderline: score 717, EMI ratio 5%"
+APP0930,75400.0,14599.0,577.0,True,True,True,True,0,0.194,AUTO_REJECT,BR-04,Score 577 / EMI ratio 19% outside limits
+APP0931,73300.0,8721.0,589.0,True,True,True,True,0,0.119,AUTO_REJECT,BR-04,Score 589 / EMI ratio 12% outside limits
+APP0932,87500.0,43221.0,728.0,True,True,True,True,0,0.494,MANUAL_REVIEW,BR-03,"Borderline: score 728, EMI ratio 49%"
+APP0933,116600.0,12386.0,697.0,True,False,True,True,0,0.106,RETURNED,BR-01,Missing documents: aadhaar
+APP0934,141300.0,7427.0,648.0,True,True,True,True,0,0.053,AUTO_REJECT,BR-04,Score 648 / EMI ratio 5% outside limits
+APP0935,82800.0,7906.0,724.0,True,True,True,True,0,0.095,MANUAL_REVIEW,BR-03,"Borderline: score 724, EMI ratio 10%"
+APP0936,92600.0,4255.0,727.0,False,True,True,True,0,0.046,RETURNED,BR-01,Missing documents: pan
+APP0937,46200.0,18624.0,781.0,True,True,False,False,2,0.403,RETURNED,BR-01,Missing documents: salary_slip
+APP0938,70600.0,8682.0,,True,True,True,False,2,0.123,AUTO_REJECT,BR-04,KYC failed after maximum retries
+APP0939,106500.0,6061.0,800.0,True,True,True,True,0,0.057,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0940,103400.0,6996.0,721.0,True,True,True,True,0,0.068,MANUAL_REVIEW,BR-03,"Borderline: score 721, EMI ratio 7%"
+APP0941,79600.0,3277.0,713.0,True,True,True,True,0,0.041,MANUAL_REVIEW,BR-03,"Borderline: score 713, EMI ratio 4%"
+APP0942,104300.0,29229.0,789.0,True,True,True,True,0,0.28,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0943,89000.0,18144.0,656.0,True,True,True,True,0,0.204,MANUAL_REVIEW,BR-03,"Borderline: score 656, EMI ratio 20%"
+APP0944,118200.0,8702.0,900.0,True,True,True,True,0,0.074,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0945,82100.0,4025.0,744.0,True,True,True,True,0,0.049,MANUAL_REVIEW,BR-03,"Borderline: score 744, EMI ratio 5%"
+APP0946,63400.0,10024.0,745.0,True,True,True,True,0,0.158,MANUAL_REVIEW,BR-03,"Borderline: score 745, EMI ratio 16%"
+APP0947,83600.0,24725.0,754.0,True,True,True,True,0,0.296,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0948,22600.0,16547.0,842.0,True,True,True,True,0,0.732,AUTO_REJECT,BR-04,Score 842 / EMI ratio 73% outside limits
+APP0949,85200.0,4384.0,772.0,True,True,True,True,0,0.051,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0950,17000.0,9344.0,616.0,True,True,True,True,0,0.55,AUTO_REJECT,BR-04,Score 616 / EMI ratio 55% outside limits
+APP0951,36700.0,10733.0,811.0,True,True,True,True,0,0.292,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0952,87600.0,6133.0,698.0,True,True,True,True,0,0.07,MANUAL_REVIEW,BR-03,"Borderline: score 698, EMI ratio 7%"
+APP0953,88500.0,10326.0,727.0,True,True,True,True,0,0.117,MANUAL_REVIEW,BR-03,"Borderline: score 727, EMI ratio 12%"
+APP0954,45900.0,18943.0,637.0,True,True,True,True,0,0.413,AUTO_REJECT,BR-04,Score 637 / EMI ratio 41% outside limits
+APP0955,55000.0,2549.0,754.0,True,True,True,True,0,0.046,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0956,126500.0,9488.0,678.0,True,True,True,True,0,0.075,MANUAL_REVIEW,BR-03,"Borderline: score 678, EMI ratio 8%"
+APP0957,60300.0,20173.0,727.0,True,True,False,True,0,0.335,RETURNED,BR-01,Missing documents: salary_slip
+APP0958,179400.0,22712.0,702.0,True,True,True,True,0,0.127,MANUAL_REVIEW,BR-03,"Borderline: score 702, EMI ratio 13%"
+APP0959,73100.0,2132.0,845.0,True,True,True,True,0,0.029,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0960,86100.0,14902.0,849.0,True,True,True,True,0,0.173,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0961,139600.0,22281.0,723.0,True,True,True,True,0,0.16,MANUAL_REVIEW,BR-03,"Borderline: score 723, EMI ratio 16%"
+APP0962,77100.0,3967.0,724.0,True,True,True,True,0,0.051,MANUAL_REVIEW,BR-03,"Borderline: score 724, EMI ratio 5%"
+APP0963,49000.0,11212.0,696.0,True,True,True,True,0,0.229,MANUAL_REVIEW,BR-03,"Borderline: score 696, EMI ratio 23%"
+APP0964,70000.0,49354.0,792.0,True,True,True,True,0,0.705,AUTO_REJECT,BR-04,Score 792 / EMI ratio 71% outside limits
+APP0965,72100.0,32200.0,699.0,True,False,True,True,0,0.447,RETURNED,BR-01,Missing documents: aadhaar
+APP0966,42400.0,24629.0,693.0,True,True,True,True,0,0.581,AUTO_REJECT,BR-04,Score 693 / EMI ratio 58% outside limits
+APP0967,66000.0,5673.0,784.0,True,True,True,True,0,0.086,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0968,54300.0,18336.0,685.0,True,True,True,True,0,0.338,MANUAL_REVIEW,BR-03,"Borderline: score 685, EMI ratio 34%"
+APP0969,105800.0,7820.0,718.0,True,True,True,False,0,0.074,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0970,74100.0,5462.0,617.0,True,True,True,True,0,0.074,AUTO_REJECT,BR-04,Score 617 / EMI ratio 7% outside limits
+APP0971,65300.0,25731.0,766.0,True,True,False,True,0,0.394,RETURNED,BR-01,Missing documents: salary_slip
+APP0972,70100.0,30571.0,846.0,True,True,True,True,0,0.436,MANUAL_REVIEW,BR-03,"Borderline: score 846, EMI ratio 44%"
+APP0973,80000.0,6133.0,767.0,True,True,True,True,0,0.077,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0974,93600.0,4281.0,815.0,True,True,True,True,0,0.046,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0975,49000.0,8203.0,665.0,True,True,True,True,0,0.167,MANUAL_REVIEW,BR-03,"Borderline: score 665, EMI ratio 17%"
+APP0976,48200.0,3642.0,735.0,True,True,True,True,0,0.076,MANUAL_REVIEW,BR-03,"Borderline: score 735, EMI ratio 8%"
+APP0977,113800.0,4983.0,659.0,False,True,True,True,0,0.044,RETURNED,BR-01,Missing documents: pan
+APP0978,62000.0,3043.0,705.0,True,True,True,True,0,0.049,MANUAL_REVIEW,BR-03,"Borderline: score 705, EMI ratio 5%"
+APP0979,41500.0,14040.0,,True,True,True,False,0,0.338,RETURNED,BR-04,KYC mismatch - customer asked to correct details
+APP0980,87300.0,5328.0,727.0,True,True,True,True,0,0.061,MANUAL_REVIEW,BR-03,"Borderline: score 727, EMI ratio 6%"
+APP0981,88000.0,10765.0,628.0,True,True,True,True,0,0.122,AUTO_REJECT,BR-04,Score 628 / EMI ratio 12% outside limits
+APP0982,39600.0,19550.0,635.0,True,True,True,True,0,0.494,AUTO_REJECT,BR-04,Score 635 / EMI ratio 49% outside limits
+APP0983,80200.0,1303.0,630.0,True,True,True,True,0,0.016,AUTO_REJECT,BR-04,Score 630 / EMI ratio 2% outside limits
+APP0984,98100.0,7437.0,752.0,True,False,True,True,0,0.076,RETURNED,BR-01,Missing documents: aadhaar
+APP0985,84900.0,24533.0,854.0,True,True,True,True,0,0.289,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0986,94200.0,7820.0,809.0,True,True,True,True,0,0.083,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0987,41700.0,2108.0,597.0,True,True,False,True,0,0.051,RETURNED,BR-01,Missing documents: salary_slip
+APP0988,83500.0,1112.0,812.0,True,True,True,True,0,0.013,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0989,64800.0,8960.0,781.0,True,True,True,True,0,0.138,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0990,60300.0,7211.0,,True,True,True,True,0,0.12,MANUAL_REVIEW,BR-05,Credit score unavailable
+APP0991,103600.0,8529.0,700.0,True,True,True,True,0,0.082,MANUAL_REVIEW,BR-03,"Borderline: score 700, EMI ratio 8%"
+APP0992,132200.0,11883.0,791.0,True,True,True,True,0,0.09,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0993,149900.0,6181.0,756.0,True,True,True,True,0,0.041,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0994,123700.0,8194.0,635.0,True,True,True,True,0,0.066,AUTO_REJECT,BR-04,Score 635 / EMI ratio 7% outside limits
+APP0995,70000.0,12011.0,760.0,True,True,True,True,0,0.172,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0996,84200.0,1485.0,,True,True,True,True,0,0.018,MANUAL_REVIEW,BR-05,Credit score unavailable
+APP0997,99400.0,10638.0,706.0,True,True,True,True,0,0.107,MANUAL_REVIEW,BR-03,"Borderline: score 706, EMI ratio 11%"
+APP0998,76800.0,23000.0,794.0,True,True,True,True,0,0.299,AUTO_APPROVE,BR-02,Meets auto-approve criteria
+APP0999,77100.0,27025.0,721.0,True,True,True,True,0,0.351,MANUAL_REVIEW,BR-03,"Borderline: score 721, EMI ratio 35%"
+APP1000,101700.0,2012.0,688.0,True,True,True,True,0,0.02,MANUAL_REVIEW,BR-03,"Borderline: score 688, EMI ratio 2%"

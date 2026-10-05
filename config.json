@@ -1,0 +1,11 @@
+{
+  "required_documents": ["pan", "aadhaar", "salary_slip"],
+  "max_kyc_retries": 2,
+  "auto_approve": {"min_score": 750, "max_emi_ratio": 0.40},
+  "reject": {"min_score": 650, "max_emi_ratio": 0.50},
+  "assumptions": {
+    "manual_minutes_per_application": 47,
+    "review_minutes": 20,
+    "followup_minutes": 5
+  }
+}

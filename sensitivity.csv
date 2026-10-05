@@ -1,0 +1,5 @@
+approve_cutoff,auto_approved,auto_decided_pct,manual_review,default_rate_among_approved_pct,risky_approvals
+700,430,63.1,207,1.6,7
+725,333,53.4,304,0.9,3
+750,237,43.8,400,0.8,2
+775,155,35.6,482,0.6,1
