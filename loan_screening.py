@@ -7,7 +7,7 @@ SIMULATED loan applications and writes a summary report (FR-08).
 All data is synthetic. All time and cost figures are stated assumptions.
 """
 import json
-from datetime import datetime          
+from datetime import datetime
 from pathlib import Path
 
 import numpy as np
@@ -96,7 +96,7 @@ def run_screening(df, cfg):
     result["emi_ratio"] = (result["proposed_emi"] / result["monthly_income"]).round(3)
     decisions = result.apply(lambda r: decide(r, cfg), axis=1, result_type="expand")
     result[["decision", "rule", "reason"]] = decisions
-    # <-- CHANGE 2: NFR-01 audit trail (application ID + rule ID + reason + timestamp)
+    # NFR-01 audit trail: application ID + rule ID + reason + timestamp per decision
     result["decided_at"] = datetime.now().isoformat(timespec="seconds")
     return result
 
