@@ -7,7 +7,7 @@ SIMULATED loan applications and writes a summary report (FR-08).
 All data is synthetic. All time and cost figures are stated assumptions.
 """
 import json
-from datetime import datetime          # <-- CHANGE 1: new import
+from datetime import datetime          
 from pathlib import Path
 
 import numpy as np
